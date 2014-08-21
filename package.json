@@ -1,7 +1,7 @@
 {
   "name": "grunt-multisourced-bower-config",
   "description": "Generate the bower configuration file from a template, picking local or remote source git submodule repository for each dependency. This enables you to create a working bower config file whether or not you have your set of submodules~dependencies cloned locally.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/GerHobbelt/grunt-multisourced-bower-config",
   "author": {
     "name": "Ger Hobbelt",

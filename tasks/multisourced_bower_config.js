@@ -53,7 +53,7 @@ module.exports = function(grunt) {
             rev = rev[0];
           } else {
             // template may spec a straight version or version range *without* a path/uri
-            rev = /^[^~><=]*\d+\./.exec(obj[idx]);
+            rev = /^[~><=^]?\d+\./.exec(obj[idx]);
             if (rev) {
               // version expression
               rev = '#' + obj[idx];
