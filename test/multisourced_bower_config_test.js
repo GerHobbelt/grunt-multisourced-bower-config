@@ -45,4 +45,13 @@ exports.multisourced_bower_config = {
 
     test.done();
   },
+  custom_mapper_options: function(test) {
+    test.expect(1);
+
+    var actual = grunt.file.read('tmp/custom_mapper_options/bower.json');
+    var expected = grunt.file.read('test/expected/custom_mapper_options/bower.json');
+    test.equal(actual, expected, 'should describe what the custom option(s) behavior is when the custom mapping function is used.');
+
+    test.done();
+  },
 };

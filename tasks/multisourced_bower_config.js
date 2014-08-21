@@ -27,7 +27,7 @@ module.exports = function(grunt) {
     for (var idx in obj) {
       if (obj.hasOwnProperty(idx)) {
         var m = mapping[idx];
-        var v;
+        var v, rev;
         if (m) {
           // A mapping exists for the given entry!
           // 
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
           }
 
           // Pick up the version/revision bit from the template ( http://bower.io/docs/api/#install )
-          var rev = /#.+$/.exec(obj[idx]);
+          rev = /#.+$/.exec(obj[idx]);
           if (rev) {
             rev = rev[0];
           } else {
@@ -67,10 +67,13 @@ module.exports = function(grunt) {
               }
             }
           }
-
-          // Patch the bower JSON config file
-          obj[idx] = options.custom_map_function(obj, idx, v, rev, options);
+        } else {
+          v = obj[idx];
+          rev = '';
         }
+
+        // Patch the bower JSON config file
+        obj[idx] = options.custom_map_function(obj, idx, v, rev, options);
       }
     }
   }

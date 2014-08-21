@@ -42,11 +42,29 @@ module.exports = function(grunt) {
           // Use the gitmodules file as a mapping source
           gitmodules_file: 'test/fixtures/gitmodules-file',
           custom_mappings: {
-            
           }
         },
         files: {
           'tmp/custom_options/bower.json': ['test/fixtures/bower-template.json']
+        }
+      },
+      custom_mapper_options: {
+        options: {
+          // Use the gitmodules file as a mapping source
+          gitmodules_file: 'test/fixtures/gitmodules-file',
+          custom_mappings: {
+            "jquery": {
+              local_path: "lib/local.yokel",
+              git_url: 'git:nada'
+            }            
+          },
+          custom_map_function: function cmf(obj, idx, v, rev, options) {
+            var rv = v + rev;
+            return rv.replace('2', '. .blubba.blob. .');
+          }
+        },
+        files: {
+          'tmp/custom_mapper_options/bower.json': ['test/fixtures/bower-template.json']
         }
       }
     },
