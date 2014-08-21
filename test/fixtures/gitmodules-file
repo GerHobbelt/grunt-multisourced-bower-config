@@ -1,1 +1,2543 @@
-1 2 3
+[submodule "php/lib/ultimatemysql"]
+	path = php/lib/ultimatemysql
+	url = git@github.com:Visyond/ultimatemysql.git
+	ignore = dirty
+[submodule "php/lib/phpmailer"]
+	path = php/lib/phpmailer
+	url = git@github.com:GerHobbelt/phpmailer.git
+	ignore = dirty
+[submodule "util/wsclean"]
+	path = util/wsclean
+	url = git@github.com:GerHobbelt/whitespace-cleaner.git
+	ignore = dirty
+[submodule "lib/slickgrid"]
+	path = lib/slickgrid
+	url = git@github.com:GerHobbelt/SlickGrid.git
+	ignore = dirty
+[submodule "lib/d3"]
+	path = lib/d3
+	url = git@github.com:GerHobbelt/d3.git
+	ignore = dirty
+[submodule "lib/d3-plugins"]
+	path = lib/d3-plugins
+	url = git@github.com:GerHobbelt/d3-plugins.git
+	ignore = dirty
+[submodule "util/antlr"]
+	path = util/antlr
+	url = git@github.com:GerHobbelt/antlr3.git
+	ignore = dirty
+[submodule "util/antlr-examples"]
+	path = util/antlr-examples
+	url = git@github.com:GerHobbelt/examples-v3.git
+	ignore = dirty
+[submodule "lib/Modernizr"]
+	path = lib/Modernizr
+	url = git@github.com:GerHobbelt/Modernizr.git
+	ignore = dirty
+[submodule "php/lib/email-address-validation"]
+	path = php/lib/email-address-validation
+	url = git@github.com:GerHobbelt/php-email-address-validation.git
+	ignore = dirty
+[submodule "util/btyacc"]
+	path = util/btyacc
+	url = git@github.com:GerHobbelt/BtYacc.git
+	ignore = dirty
+[submodule "lib/jquery"]
+	path = lib/jquery
+	url = git@github.com:GerHobbelt/jquery.git
+	ignore = dirty
+[submodule "lib/jquery-ui"]
+	path = lib/jquery-ui
+	url = git@github.com:GerHobbelt/jquery-ui.git
+	ignore = dirty
+[submodule "lib/jquery-sparkline"]
+	path = lib/jquery-sparkline
+	url = git@github.com:GerHobbelt/jquery.sparkline.git
+	ignore = dirty
+[submodule "lib/jquery-multiselect"]
+	path = lib/jquery-multiselect
+	url = git@github.com:GerHobbelt/jquery-multiselect.git
+	ignore = dirty
+[submodule "buttons/famfamfam"]
+	path = buttons/famfamfam
+	url = git@github.com:GerHobbelt/famfamfam.git
+	ignore = dirty
+[submodule "php/lib/lessphp"]
+	path = php/lib/lessphp
+	url = git@github.com:GerHobbelt/lessphp.git
+	ignore = dirty
+[submodule "lib/persistJS"]
+	path = lib/persistJS
+	url = git@github.com:GerHobbelt/persist-js.git
+	ignore = dirty
+[submodule "php/lib/twig-template-engine"]
+	path = php/lib/twig-template-engine
+	url = git@github.com:GerHobbelt/Twig.git
+	ignore = dirty
+[submodule "php/lib/phpti-template-engine"]
+	path = php/lib/phpti-template-engine
+	url = git@github.com:GerHobbelt/phpti.git
+	ignore = dirty
+[submodule "lib/numeric"]
+	path = lib/numeric
+	url = git@github.com:GerHobbelt/numeric.git
+	ignore = dirty
+[submodule "lib/accounting-format"]
+	path = lib/accounting-format
+	url = git@github.com:GerHobbelt/accounting.js.git
+	ignore = dirty
+[submodule "lib/json3"]
+	path = lib/json3
+	url = git@github.com:GerHobbelt/json3.git
+	ignore = dirty
+[submodule "lib/thumbs-touch"]
+	path = lib/thumbs-touch
+	url = git@github.com:GerHobbelt/thumbs.js.git
+	ignore = dirty
+[submodule "lib/json-select"]
+	path = lib/json-select
+	url = git@github.com:GerHobbelt/JSONSelect.git
+	ignore = dirty
+[submodule "lib/crypto-js"]
+	path = lib/crypto-js
+	url = git@github.com:GerHobbelt/cryptojs.git
+	ignore = dirty
+[submodule "lib/jquery-bgiframe"]
+	path = lib/jquery-bgiframe
+	url = git@github.com:GerHobbelt/bgiframe.git
+	ignore = dirty
+[submodule "lib/gridster"]
+	path = lib/gridster
+	url = git@github.com:GerHobbelt/gridster.js.git
+	ignore = dirty
+[submodule "lib/rangy"]
+	path = lib/rangy
+	url = git@github.com:GerHobbelt/Rangy.git
+	ignore = dirty
+[submodule "lib/rangyinputs"]
+	path = lib/rangyinputs
+	url = git@github.com:GerHobbelt/rangyinputs.git
+	ignore = dirty
+[submodule "lib/masonry"]
+	path = lib/masonry
+	url = git@github.com:GerHobbelt/masonry.git
+	ignore = dirty
+[submodule "lib/d3-xcharts"]
+	path = lib/d3-xcharts
+	url = git@github.com:GerHobbelt/xcharts.git
+	ignore = dirty
+[submodule "lib/d3-nvd3-charts"]
+	path = lib/d3-nvd3-charts
+	url = git@github.com:GerHobbelt/nvd3.git
+	ignore = dirty
+[submodule "php/lib/github-api3-php"]
+	path = php/lib/github-api3-php
+	url = git@github.com:GerHobbelt/github-api3-php.git
+	ignore = dirty
+[submodule "php/lib/PHPExcel"]
+	path = php/lib/PHPExcel
+	url = git@github.com:GerHobbelt/PHPExcel.git
+	ignore = dirty
+[submodule "lib/backbone-fundamentals-book"]
+	path = lib/backbone-fundamentals-book
+	url = git@github.com:GerHobbelt/backbone-fundamentals.git
+	ignore = dirty
+[submodule "lib/backbone"]
+	path = lib/backbone
+	url = git@github.com:GerHobbelt/backbone.git
+	ignore = dirty
+[submodule "lib/underscore"]
+	path = lib/underscore
+	url = git@github.com:GerHobbelt/underscore.git
+	ignore = dirty
+[submodule "lib/lodash"]
+	path = lib/lodash
+	url = git@github.com:GerHobbelt/lodash.git
+	ignore = dirty
+[submodule "util/javascriptlint"]
+	path = util/javascriptlint
+	url = git@github.com:GerHobbelt/javascriptlint.git
+	ignore = dirty
+[submodule "php/lib/packager"]
+	path = php/lib/packager
+	url = git@github.com:GerHobbelt/packager.git
+	ignore = dirty
+[submodule "lib/qunit"]
+	path = lib/qunit
+	url = git@github.com:GerHobbelt/qunit.git
+	ignore = dirty
+[submodule "lib/jasmine"]
+	path = lib/jasmine
+	url = git@github.com:GerHobbelt/jasmine.git
+	ignore = dirty
+[submodule "lib/jquery-idealforms"]
+	path = lib/jquery-idealforms
+	url = git@github.com:GerHobbelt/jq-idealforms.git
+	ignore = dirty
+[submodule "lib/jquery-fieldselection"]
+	path = lib/jquery-fieldselection
+	url = git@github.com:GerHobbelt/jquery-fieldselection.git
+	ignore = dirty
+[submodule "php/lib/phpbrowscap"]
+	path = php/lib/phpbrowscap
+	url = git@github.com:GerHobbelt/phpbrowscap.git
+	ignore = dirty
+[submodule "php/lib/Upload"]
+	path = php/lib/Upload
+	url = git@github.com:GerHobbelt/Upload.git
+	ignore = dirty
+[submodule "lib/jskata"]
+	path = lib/jskata
+	url = git@github.com:GerHobbelt/jskata.git
+	ignore = dirty
+[submodule "_docs/wiki"]
+	path = _docs/wiki
+	url = git@github.com:Visyond/visyond.wiki.git
+	ignore = dirty
+[submodule "lib/SlickBack"]
+	path = lib/SlickBack
+	url = git@github.com:GerHobbelt/slickback.git
+	ignore = dirty
+[submodule "lib/stapes-js-mvc"]
+	path = lib/stapes-js-mvc
+	url = git@github.com:GerHobbelt/stapes.git
+	ignore = dirty
+[submodule "lib/kebab-pubsub-queue"]
+	path = lib/kebab-pubsub-queue
+	url = git@github.com:GerHobbelt/kebab.git
+	ignore = dirty
+[submodule "lib/Probability-F"]
+	path = lib/Probability-F
+	url = git@github.com:GerHobbelt/Probability.js.git
+	ignore = dirty
+[submodule "lib/store-local"]
+	path = lib/store-local
+	url = git@github.com:GerHobbelt/store.js.git
+	ignore = dirty
+[submodule "lib/Kizzy-localcache"]
+	path = lib/Kizzy-localcache
+	url = git@github.com:GerHobbelt/Kizzy.git
+	ignore = dirty
+[submodule "lib/Hasher"]
+	path = lib/Hasher
+	url = git@github.com:GerHobbelt/Hasher.git
+	ignore = dirty
+[submodule "lib/dropin-require"]
+	path = lib/dropin-require
+	url = git@github.com:GerHobbelt/dropinrequire.js.git
+	ignore = dirty
+[submodule "lib/numbers-math"]
+	path = lib/numbers-math
+	url = git@github.com:GerHobbelt/numbers.js.git
+	ignore = dirty
+[submodule "lib/jstat"]
+	path = lib/jstat
+	url = git@github.com:GerHobbelt/jstat.git
+	ignore = dirty
+[submodule "lib/simple-statistics"]
+	path = lib/simple-statistics
+	url = git@github.com:GerHobbelt/simple-statistics.git
+	ignore = dirty
+[submodule "util/jison"]
+	path = util/jison
+	url = git@github.com:GerHobbelt/jison.git
+	ignore = dirty
+[submodule "util/jsbeautifier"]
+	path = util/jsbeautifier
+	url = git@github.com:GerHobbelt/js-beautify.git
+	ignore = dirty
+[submodule "lib/jquery-colorbox"]
+	path = lib/jquery-colorbox
+	url = git@github.com:GerHobbelt/colorbox.git
+	ignore = dirty
+[submodule "lib/jasmine-jquery"]
+	path = lib/jasmine-jquery
+	url = git@github.com:GerHobbelt/jasmine-jquery.git
+	ignore = dirty
+[submodule "util/docco"]
+	path = util/docco
+	url = git@github.com:GerHobbelt/docco.git
+	ignore = dirty
+[submodule "_docs/development/gitmagic"]
+	path = _docs/development/gitmagic
+	url = git@github.com:GerHobbelt/gitmagic.git
+	ignore = dirty
+[submodule "lib/jQuery-File-Upload"]
+	path = lib/jQuery-File-Upload
+	url = git@github.com:GerHobbelt/jQuery-File-Upload.git
+	ignore = dirty
+[submodule "lib/backbone.layoutmanager"]
+	path = lib/backbone.layoutmanager
+	url = git@github.com:GerHobbelt/backbone.layoutmanager.git
+	ignore = dirty
+[submodule "lib/backbone-forms"]
+	path = lib/backbone-forms
+	url = git@github.com:GerHobbelt/backbone-forms.git
+	ignore = dirty
+[submodule "lib/backbone-relational"]
+	path = lib/backbone-relational
+	url = git@github.com:GerHobbelt/Backbone-relational.git
+	ignore = dirty
+[submodule "lib/backbone-relational-tutorial"]
+	path = lib/backbone-relational-tutorial
+	url = git@github.com:GerHobbelt/backbone-relational-tutorial.git
+	ignore = dirty
+[submodule "lib/backbone-boilerplate"]
+	path = lib/backbone-boilerplate
+	url = git@github.com:GerHobbelt/backbone-boilerplate.git
+	ignore = dirty
+[submodule "lib/backbone-activities"]
+	path = lib/backbone-activities
+	url = git@github.com:GerHobbelt/backbone.activities.git
+	ignore = dirty
+[submodule "lib/backbone-localstorage"]
+	path = lib/backbone-localstorage
+	url = git@github.com:GerHobbelt/Backbone.localStorage.git
+	ignore = dirty
+[submodule "lib/rivets"]
+	path = lib/rivets
+	url = git@github.com:GerHobbelt/rivets.git
+	ignore = dirty
+[submodule "lib/backbone-paginator"]
+	path = lib/backbone-paginator
+	url = git@github.com:GerHobbelt/backbone.paginator.git
+	ignore = dirty
+[submodule "lib/backbone-validation"]
+	path = lib/backbone-validation
+	url = git@github.com:GerHobbelt/backbone.validation.git
+	ignore = dirty
+[submodule "lib/backbone-model-binder"]
+	path = lib/backbone-model-binder
+	url = git@github.com:GerHobbelt/Backbone.ModelBinder.git
+	ignore = dirty
+[submodule "lib/backbone-offline"]
+	path = lib/backbone-offline
+	url = git@github.com:GerHobbelt/backbone.offline.git
+	ignore = dirty
+[submodule "lib/backbone-iobind"]
+	path = lib/backbone-iobind
+	url = git@github.com:GerHobbelt/backbone.iobind.git
+	ignore = dirty
+[submodule "lib/backbone-jasmine-koans"]
+	path = lib/backbone-jasmine-koans
+	url = git@github.com:GerHobbelt/backbone-koans.git
+	ignore = dirty
+[submodule "lib/backbone-deep-model"]
+	path = lib/backbone-deep-model
+	url = git@github.com:GerHobbelt/backbone-deep-model.git
+	ignore = dirty
+[submodule "lib/backbone-nested"]
+	path = lib/backbone-nested
+	url = git@github.com:GerHobbelt/backbone-nested.git
+	ignore = dirty
+[submodule "lib/backbone-D3"]
+	path = lib/backbone-D3
+	url = git@github.com:GerHobbelt/Backbone-d3.git
+	ignore = dirty
+[submodule "lib/backbone-notifier"]
+	path = lib/backbone-notifier
+	url = git@github.com:GerHobbelt/backbone.notifier.git
+	ignore = dirty
+[submodule "lib/backbone-shortcuts"]
+	path = lib/backbone-shortcuts
+	url = git@github.com:GerHobbelt/backbone-shortcuts.git
+	ignore = dirty
+[submodule "lib/backbone-subroute"]
+	path = lib/backbone-subroute
+	url = git@github.com:GerHobbelt/backbone.subroute.git
+	ignore = dirty
+[submodule "lib/backbone-super"]
+	path = lib/backbone-super
+	url = git@github.com:GerHobbelt/Backbone-Super.git
+	ignore = dirty
+[submodule "lib/backbone-safesync"]
+	path = lib/backbone-safesync
+	url = git@github.com:GerHobbelt/backbone-safesync.git
+	ignore = dirty
+[submodule "lib/backbone-modal-view"]
+	path = lib/backbone-modal-view
+	url = git@github.com:GerHobbelt/BackboneJSModalView.git
+	ignore = dirty
+[submodule "lib/backbone-eventbroker"]
+	path = lib/backbone-eventbroker
+	url = git@github.com:GerHobbelt/backbone-eventbroker.git
+	ignore = dirty
+[submodule "lib/jasmine-backbone-matchers"]
+	path = lib/jasmine-backbone-matchers
+	url = git@github.com:GerHobbelt/jasmine.backbone.js.git
+	ignore = dirty
+[submodule "lib/backbone-touch"]
+	path = lib/backbone-touch
+	url = git@github.com:GerHobbelt/backbone.touch.git
+	ignore = dirty
+[submodule "lib/backbone-modelref"]
+	path = lib/backbone-modelref
+	url = git@github.com:GerHobbelt/backbone-modelref.git
+	ignore = dirty
+[submodule "lib/keymaster"]
+	path = lib/keymaster
+	url = git@github.com:GerHobbelt/keymaster.git
+	ignore = dirty
+[submodule "lib/spin"]
+	path = lib/spin
+	url = git@github.com:GerHobbelt/spin.js.git
+	ignore = dirty
+[submodule "lib/jquery-dialog"]
+	path = lib/jquery-dialog
+	url = git@github.com:GerHobbelt/jquery.dialog.git
+	ignore = dirty
+[submodule "lib/jquery-mobile-simpledialog"]
+	path = lib/jquery-mobile-simpledialog
+	url = git@github.com:GerHobbelt/jquery-mobile-simpledialog.git
+	ignore = dirty
+[submodule "lib/jquery.printarea"]
+	path = lib/jquery.printarea
+	url = git@github.com:GerHobbelt/jquery.printarea.js.git
+	ignore = dirty
+[submodule "lib/chroma"]
+	path = lib/chroma
+	url = git@github.com:GerHobbelt/chroma.js.git
+	ignore = dirty
+[submodule "lib/jsPDF"]
+	path = lib/jsPDF
+	url = git@github.com:GerHobbelt/jsPDF.git
+	ignore = dirty
+[submodule "lib/html2canvas"]
+	path = lib/html2canvas
+	url = git@github.com:GerHobbelt/html2canvas.git
+	ignore = dirty
+[submodule "php/lib/domPDF"]
+	path = php/lib/domPDF
+	url = git@github.com:GerHobbelt/dompdf.git
+	ignore = dirty
+[submodule "css/lib/priss"]
+	path = css/lib/priss
+	url = git@github.com:GerHobbelt/priss.git
+	ignore = dirty
+[submodule "css/lib/Gesso"]
+	path = css/lib/Gesso
+	url = git@github.com:GerHobbelt/Gesso.git
+	ignore = dirty
+[submodule "lib/jasmine-bootstrap"]
+	path = lib/jasmine-bootstrap
+	url = git@github.com:GerHobbelt/jasmine-bootstrap.git
+	ignore = dirty
+[submodule "lib/jasmine-ajax"]
+	path = lib/jasmine-ajax
+	url = git@github.com:GerHobbelt/jasmine-ajax.git
+	ignore = dirty
+[submodule "lib/jasmine-ui"]
+	path = lib/jasmine-ui
+	url = git@github.com:GerHobbelt/jasmine-ui.git
+	ignore = dirty
+[submodule "lib/jasmine-matchers"]
+	path = lib/jasmine-matchers
+	url = git@github.com:GerHobbelt/jasmine-matchers.git
+	ignore = dirty
+[submodule "lib/jasmine-Underscore-matchers"]
+	path = lib/jasmine-Underscore-matchers
+	url = git@github.com:GerHobbelt/Underscore-Matchers-for-Jasmine.git
+	ignore = dirty
+[submodule "lib/jasmine-DOM"]
+	path = lib/jasmine-DOM
+	url = git@github.com:GerHobbelt/jasmine-dom.git
+	ignore = dirty
+[submodule "lib/jasmine-async"]
+	path = lib/jasmine-async
+	url = git@github.com:GerHobbelt/jasmine.async.git
+	ignore = dirty
+[submodule "lib/jasmine-stealth"]
+	path = lib/jasmine-stealth
+	url = git@github.com:GerHobbelt/jasmine-stealth.git
+	ignore = dirty
+[submodule "lib/history-js"]
+	path = lib/history-js
+	url = git@github.com:GerHobbelt/history.js.git
+	ignore = dirty
+[submodule "lib/jquery-smartresize"]
+	path = lib/jquery-smartresize
+	url = git@github.com:GerHobbelt/jquery-smartresize.git
+	ignore = dirty
+[submodule "lib/javascript-debug"]
+	path = lib/javascript-debug
+	url = git@github.com:GerHobbelt/javascript-debug.git
+	ignore = dirty
+[submodule "lib/javascript-sandbox-console"]
+	path = lib/javascript-sandbox-console
+	url = git@github.com:GerHobbelt/javascript-sandbox-console.git
+	ignore = dirty
+[submodule "lib/keyboard-js"]
+	path = lib/keyboard-js
+	url = git@github.com:GerHobbelt/KeyboardJS.git
+	ignore = dirty
+[submodule "lib/crossfilter"]
+	path = lib/crossfilter
+	url = git@github.com:GerHobbelt/crossfilter.git
+	ignore = dirty
+[submodule "lib/iscroll"]
+	path = lib/iscroll
+	url = git@github.com:GerHobbelt/iscroll.git
+	ignore = dirty
+[submodule "lib/liquidmetal-scoring-algo"]
+	path = lib/liquidmetal-scoring-algo
+	url = git@github.com:GerHobbelt/liquidmetal.git
+	ignore = dirty
+[submodule "lib/jquery-flexselect"]
+	path = lib/jquery-flexselect
+	url = git@github.com:GerHobbelt/jquery-flexselect.git
+	ignore = dirty
+[submodule "lib/domready"]
+	path = lib/domready
+	url = git@github.com:GerHobbelt/domready.git
+	ignore = dirty
+[submodule "lib/datavore"]
+	path = lib/datavore
+	url = git@github.com:GerHobbelt/datavore.git
+	ignore = dirty
+[submodule "lib/jquery-chosen"]
+	path = lib/jquery-chosen
+	url = git@github.com:GerHobbelt/chosen.git
+	ignore = dirty
+[submodule "lib/jquery-zTree"]
+	path = lib/jquery-zTree
+	url = git@github.com:GerHobbelt/zTree_v3.git
+	ignore = dirty
+[submodule "lib/jquery-plusTabs"]
+	path = lib/jquery-plusTabs
+	url = git@github.com:GerHobbelt/plusTabs.git
+	ignore = dirty
+[submodule "lib/jquery-kwicks"]
+	path = lib/jquery-kwicks
+	url = git@github.com:GerHobbelt/kwicks.git
+	ignore = dirty
+[submodule "lib/stately"]
+	path = lib/stately
+	url = git@github.com:GerHobbelt/Stately.js.git
+	ignore = dirty
+[submodule "lib/jquery-textfit"]
+	path = lib/jquery-textfit
+	url = git@github.com:GerHobbelt/jquery.textFit.git
+	ignore = dirty
+[submodule "lib/node-si"]
+	path = lib/node-si
+	url = git@github.com:GerHobbelt/node-si.git
+	ignore = dirty
+[submodule "lib/jquery-equalize"]
+	path = lib/jquery-equalize
+	url = git@github.com:GerHobbelt/equalize.js.git
+	ignore = dirty
+[submodule "lib/ui-message-queue"]
+	path = lib/ui-message-queue
+	url = git@github.com:GerHobbelt/ui-message-queue.git
+	ignore = dirty
+[submodule "lib/jquery-avgrund-modal"]
+	path = lib/jquery-avgrund-modal
+	url = git@github.com:GerHobbelt/jquery.avgrund.js.git
+	ignore = dirty
+[submodule "_docs/development/ECMAscript.5"]
+	path = _docs/development/ECMAscript.5
+	url = git@github.com:GerHobbelt/es5.github.com.git
+	ignore = dirty
+[submodule "lib/jquery-gridalicious"]
+	path = lib/jquery-gridalicious
+	url = git@github.com:GerHobbelt/Grid-A-Licious.git
+	ignore = dirty
+[submodule "lib/mousetrap"]
+	path = lib/mousetrap
+	url = git@github.com:GerHobbelt/mousetrap.git
+	ignore = dirty
+[submodule "lib/backbone-mousetrap"]
+	path = lib/backbone-mousetrap
+	url = git@github.com:GerHobbelt/backbone.mousetrap.git
+	ignore = dirty
+[submodule "lib/backbone-factory"]
+	path = lib/backbone-factory
+	url = git@github.com:GerHobbelt/Backbone-Factory.git
+	ignore = dirty
+[submodule "lib/backbone-query-parameters"]
+	path = lib/backbone-query-parameters
+	url = git@github.com:GerHobbelt/backbone-query-parameters.git
+	ignore = dirty
+[submodule "lib/backbone-namespaced-events"]
+	path = lib/backbone-namespaced-events
+	url = git@github.com:GerHobbelt/backbone.namespaced-events.git
+	ignore = dirty
+[submodule "lib/backbone-memento"]
+	path = lib/backbone-memento
+	url = git@github.com:GerHobbelt/backbone.memento.git
+	ignore = dirty
+[submodule "lib/backbone-act-as-mementoable"]
+	path = lib/backbone-act-as-mementoable
+	url = git@github.com:GerHobbelt/Backbone.actAs.Mementoable.git
+	ignore = dirty
+[submodule "lib/backbone-act-as-configurable"]
+	path = lib/backbone-act-as-configurable
+	url = git@github.com:GerHobbelt/Backbone.actAs.Configurable.git
+	ignore = dirty
+[submodule "lib/backbone-validations"]
+	path = lib/backbone-validations
+	url = git@github.com:GerHobbelt/backbone.validations.git
+	ignore = dirty
+[submodule "lib/backbone-validator"]
+	path = lib/backbone-validator
+	url = git@github.com:GerHobbelt/Backbone.Validator.git
+	ignore = dirty
+[submodule "lib/backbone-view-model"]
+	path = lib/backbone-view-model
+	url = git@github.com:GerHobbelt/backbone-view-model.git
+	ignore = dirty
+[submodule "lib/backbone-workflow"]
+	path = lib/backbone-workflow
+	url = git@github.com:GerHobbelt/workflow.js.git
+	ignore = dirty
+[submodule "lib/backbone-mutators"]
+	path = lib/backbone-mutators
+	url = git@github.com:GerHobbelt/Backbone.Mutators.git
+	ignore = dirty
+[submodule "lib/backbone-safe"]
+	path = lib/backbone-safe
+	url = git@github.com:GerHobbelt/Backbone.Safe.git
+	ignore = dirty
+[submodule "lib/backbone-associations"]
+	path = lib/backbone-associations
+	url = git@github.com:GerHobbelt/backbone-associations.git
+	ignore = dirty
+[submodule "lib/backbone-pageable"]
+	path = lib/backbone-pageable
+	url = git@github.com:GerHobbelt/backbone-pageable.git
+	ignore = dirty
+[submodule "lib/backbone-chosen"]
+	path = lib/backbone-chosen
+	url = git@github.com:GerHobbelt/Backbone.Chosen.git
+	ignore = dirty
+[submodule "lib/backbone-rel"]
+	path = lib/backbone-rel
+	url = git@github.com:GerHobbelt/Backbone.Rel.git
+	ignore = dirty
+[submodule "lib/backbone-act-as-paginatable"]
+	path = lib/backbone-act-as-paginatable
+	url = git@github.com:GerHobbelt/Backbone.actAs.Paginatable.git
+	ignore = dirty
+[submodule "lib/backbone-collectionsubset"]
+	path = lib/backbone-collectionsubset
+	url = git@github.com:GerHobbelt/backbone.collectionsubset.git
+	ignore = dirty
+[submodule "lib/backbone-fetch-cache"]
+	path = lib/backbone-fetch-cache
+	url = git@github.com:GerHobbelt/backbone-fetch-cache.git
+	ignore = dirty
+[submodule "lib/backbone-courier"]
+	path = lib/backbone-courier
+	url = git@github.com:GerHobbelt/backbone.courier.git
+	ignore = dirty
+[submodule "lib/backbone-subviews"]
+	path = lib/backbone-subviews
+	url = git@github.com:GerHobbelt/backbone.subviews.git
+	ignore = dirty
+[submodule "lib/backbone-managedview"]
+	path = lib/backbone-managedview
+	url = git@github.com:GerHobbelt/backbone.managedview.git
+	ignore = dirty
+[submodule "_docs/development/html5demos"]
+	path = _docs/development/html5demos
+	url = git@github.com:GerHobbelt/html5demos.git
+	ignore = dirty
+[submodule "_docs/development/backbone-iOS-html5demos"]
+	path = _docs/development/backbone-iOS-html5demos
+	url = git@github.com:GerHobbelt/backbone-iOS-html5demos.git
+	ignore = dirty
+[submodule "lib/jquery-custom-input"]
+	path = lib/jquery-custom-input
+	url = git@github.com:GerHobbelt/jQuery-Custom-Input.git
+	ignore = dirty
+[submodule "lib/jquery-checkbox"]
+	path = lib/jquery-checkbox
+	url = git@github.com:GerHobbelt/jquery-checkbox.git
+	ignore = dirty
+[submodule "lib/jquery-icheckbox"]
+	path = lib/jquery-icheckbox
+	url = git@github.com:GerHobbelt/jquery-icheckbox.git
+	ignore = dirty
+[submodule "lib/jquery-cleverfocus"]
+	path = lib/jquery-cleverfocus
+	url = git@github.com:GerHobbelt/jquery-cleverfocus.git
+	ignore = dirty
+[submodule "lib/jquery-switchy"]
+	path = lib/jquery-switchy
+	url = git@github.com:GerHobbelt/switchy.git
+	ignore = dirty
+[submodule "lib/jquery-marcopolo"]
+	path = lib/jquery-marcopolo
+	url = git@github.com:GerHobbelt/jquery-marcopolo.git
+	ignore = dirty
+[submodule "lib/jquery-chaperone"]
+	path = lib/jquery-chaperone
+	url = git@github.com:GerHobbelt/chaperone.js.git
+	ignore = dirty
+[submodule "lib/jquery-input-indicator"]
+	path = lib/jquery-input-indicator
+	url = git@github.com:GerHobbelt/input_indicator.git
+	ignore = dirty
+[submodule "lib/jquery-loadprogress"]
+	path = lib/jquery-loadprogress
+	url = git@github.com:GerHobbelt/jquery-loadprogress-plugin.git
+	ignore = dirty
+[submodule "lib/reveal.js"]
+	path = lib/reveal.js
+	url = git@github.com:GerHobbelt/reveal.js.git
+	ignore = dirty
+[submodule "lib/meny-menu"]
+	path = lib/meny-menu
+	url = git@github.com:GerHobbelt/Meny.git
+	ignore = dirty
+[submodule "lib/backbone-marionette"]
+	path = lib/backbone-marionette
+	url = git@github.com:GerHobbelt/backbone.marionette.git
+	ignore = dirty
+[submodule "lib/jquery-mockjax"]
+	path = lib/jquery-mockjax
+	url = git@github.com:GerHobbelt/jquery-mockjax.git
+	ignore = dirty
+[submodule "lib/jquery-hashchange"]
+	path = lib/jquery-hashchange
+	url = git@github.com:GerHobbelt/jquery-hashchange.git
+	ignore = dirty
+[submodule "lib/d3-DexCharts"]
+	path = lib/d3-DexCharts
+	url = git@github.com:GerHobbelt/DexCharts.git
+	ignore = dirty
+[submodule "lib/javascript-stacktrace"]
+	path = lib/javascript-stacktrace
+	url = git@github.com:GerHobbelt/javascript-stacktrace.git
+	ignore = dirty
+[submodule "php/lib/php-markdown"]
+	path = php/lib/php-markdown
+	url = git@github.com:GerHobbelt/php-markdown.git
+	ignore = dirty
+[submodule "lib/impress.js"]
+	path = lib/impress.js
+	url = git@github.com:GerHobbelt/impress.js.git
+	ignore = dirty
+[submodule "lib/deck.js"]
+	path = lib/deck.js
+	url = git@github.com:GerHobbelt/deck.js.git
+	ignore = dirty
+[submodule "lib/moment"]
+	path = lib/moment
+	url = git@github.com:GerHobbelt/moment.git
+	ignore = dirty
+[submodule "lib/jquery-datepicker"]
+	path = lib/jquery-datepicker
+	url = git@github.com:GerHobbelt/datepick.git
+	ignore = dirty
+[submodule "lib/jquery-event-drag-drop"]
+	path = lib/jquery-event-drag-drop
+	url = git@github.com:GerHobbelt/jquery.threedubmedia.git
+	ignore = dirty
+[submodule "lib/jquery-verge"]
+	path = lib/jquery-verge
+	url = git@github.com:GerHobbelt/verge.git
+	ignore = dirty
+[submodule "lib/jquery-gritter"]
+	path = lib/jquery-gritter
+	url = git@github.com:GerHobbelt/Gritter.git
+	ignore = dirty
+[submodule "lib/IndexedDBShim"]
+	path = lib/IndexedDBShim
+	url = git@github.com:GerHobbelt/IndexedDBShim.git
+	ignore = dirty
+[submodule "lib/IndexedDBWrapper"]
+	path = lib/IndexedDBWrapper
+	url = git@github.com:GerHobbelt/IDBWrapper.git
+	ignore = dirty
+[submodule "lib/flowtime"]
+	path = lib/flowtime
+	url = git@github.com:GerHobbelt/flowtime.js.git
+	ignore = dirty
+[submodule "util/google-closure-compiler/src"]
+	path = util/google-closure-compiler/src
+	url = git@github.com:GerHobbelt/closure-compiler.git
+	ignore = dirty
+[submodule "php/lib/Secure-random-bytes-in-PHP"]
+	path = php/lib/Secure-random-bytes-in-PHP
+	url = git@github.com:GerHobbelt/Secure-random-bytes-in-PHP.git
+	ignore = dirty
+[submodule "lib/pivot.js"]
+	path = lib/pivot.js
+	url = git@github.com:GerHobbelt/pivot.js.git
+	ignore = dirty
+[submodule "lib/jquery-tooltip-toolbar"]
+	path = lib/jquery-tooltip-toolbar
+	url = git@github.com:GerHobbelt/toolbar.git
+	ignore = dirty
+[submodule "lib/jquery-grumble-tooltip"]
+	path = lib/jquery-grumble-tooltip
+	url = git@github.com:GerHobbelt/grumble.js.git
+	ignore = dirty
+[submodule "lib/tooltipster"]
+	path = lib/tooltipster
+	url = git@github.com:GerHobbelt/tooltipster.git
+	ignore = dirty
+[submodule "_docs/development/crossfilter"]
+	path = _docs/development/crossfilter
+	url = git@github.com:GerHobbelt/crossfilter.wiki.git
+	ignore = dirty
+[submodule "lib/dc"]
+	path = lib/dc
+	url = git@github.com:GerHobbelt/dc.js.git
+	ignore = dirty
+[submodule "_docs/development/d3-nvd3-charts"]
+	path = _docs/development/d3-nvd3-charts
+	url = git@github.com:GerHobbelt/nvd3.wiki.git
+	ignore = dirty
+[submodule "lib/zoom"]
+	path = lib/zoom
+	url = git@github.com:GerHobbelt/zoom.js.git
+	ignore = dirty
+[submodule "lib/requireJS"]
+	path = lib/requireJS
+	url = git@github.com:GerHobbelt/requirejs.git
+	ignore = dirty
+[submodule "lib/jasmine-matchers-1"]
+	path = lib/jasmine-matchers-1
+	url = git@github.com:GerHobbelt/Jasmine-Matchers-1.git
+	ignore = dirty
+[submodule "php/lib/ErrorHandler"]
+	path = php/lib/ErrorHandler
+	url = git@github.com:GerHobbelt/ErrorHandler.git
+	ignore = dirty
+[submodule "php/lib/php-json-format"]
+	path = php/lib/php-json-format
+	url = git@github.com:GerHobbelt/php-json-format.git
+	ignore = dirty
+[submodule "php/lib/niceJSON"]
+	path = php/lib/niceJSON
+	url = git@github.com:GerHobbelt/nicejson-php.git
+	ignore = dirty
+[submodule "lib/miso.dataset"]
+	path = lib/miso.dataset
+	url = git@github.com:GerHobbelt/dataset.git
+	ignore = dirty
+[submodule "lib/underscore.math"]
+	path = lib/underscore.math
+	url = git@github.com:GerHobbelt/underscore.math.git
+	ignore = dirty
+[submodule "lib/miso.events"]
+	path = lib/miso.events
+	url = git@github.com:GerHobbelt/events.git
+	ignore = dirty
+[submodule "lib/CKeditor.development"]
+	path = lib/CKeditor.development
+	url = git@github.com:GerHobbelt/ckeditor-dev.git
+	ignore = dirty
+[submodule "lib/CKeditor.releases"]
+	path = lib/CKeditor.releases
+	url = git@github.com:GerHobbelt/ckeditor-releases.git
+	ignore = dirty
+[submodule "css/lib/uni-form"]
+	path = css/lib/uni-form
+	url = git@github.com:GerHobbelt/uni-form.git
+	ignore = dirty
+[submodule "lib/jquery-form"]
+	path = lib/jquery-form
+	url = git@github.com:GerHobbelt/form.git
+	ignore = dirty
+[submodule "lib/Bootstrap-Form-Builder"]
+	path = lib/Bootstrap-Form-Builder
+	url = git@github.com:GerHobbelt/Bootstrap-Form-Builder.git
+	ignore = dirty
+[submodule "lib/jquery-validation-engine"]
+	path = lib/jquery-validation-engine
+	url = git@github.com:GerHobbelt/jQuery-Validation-Engine.git
+	ignore = dirty
+[submodule "lib/Parsley"]
+	path = lib/Parsley
+	url = git@github.com:GerHobbelt/Parsley.js.git
+	ignore = dirty
+[submodule "css/lib/formalize"]
+	path = css/lib/formalize
+	url = git@github.com:GerHobbelt/formalize.git
+	ignore = dirty
+[submodule "lib/Garlic"]
+	path = lib/Garlic
+	url = git@github.com:GerHobbelt/Garlic.js.git
+	ignore = dirty
+[submodule "lib/jquery-form-accordion"]
+	path = lib/jquery-form-accordion
+	url = git@github.com:GerHobbelt/FormAccordion.git
+	ignore = dirty
+[submodule "_docs/HTML5-Offline-Form"]
+	path = _docs/HTML5-Offline-Form
+	url = git@github.com:GerHobbelt/OfflineForm.git
+	ignore = dirty
+[submodule "lib/jquery-multipage-form"]
+	path = lib/jquery-multipage-form
+	url = git@github.com:GerHobbelt/jQuery-Multipage-Form.git
+	ignore = dirty
+[submodule "lib/jquery-serialize-form"]
+	path = lib/jquery-serialize-form
+	url = git@github.com:GerHobbelt/jquery-serializeForm.git
+	ignore = dirty
+[submodule "lib/jquery-in-field-labels"]
+	path = lib/jquery-in-field-labels
+	url = git@github.com:GerHobbelt/In-Field-Labels-jQuery-Plugin.git
+	ignore = dirty
+[submodule "lib/jquery-mask"]
+	path = lib/jquery-mask
+	url = git@github.com:GerHobbelt/jQuery-Mask-Plugin.git
+	ignore = dirty
+[submodule "lib/sisyphus"]
+	path = lib/sisyphus
+	url = git@github.com:GerHobbelt/sisyphus.git
+	ignore = dirty
+[submodule "lib/jquery-deserialize"]
+	path = lib/jquery-deserialize
+	url = git@github.com:GerHobbelt/jquery-deserialize.git
+	ignore = dirty
+[submodule "lib/zen-form"]
+	path = lib/zen-form
+	url = git@github.com:GerHobbelt/zen-form.git
+	ignore = dirty
+[submodule "lib/jquery-dirtyforms"]
+	path = lib/jquery-dirtyforms
+	url = git@github.com:GerHobbelt/jquery.dirtyforms.git
+	ignore = dirty
+[submodule "lib/elFinder"]
+	path = lib/elFinder
+	url = git@github.com:GerHobbelt/elFinder.git
+	ignore = dirty
+[submodule "lib/jquery-facebox"]
+	path = lib/jquery-facebox
+	url = git@github.com:GerHobbelt/facebox.git
+	ignore = dirty
+[submodule "lib/spectrum"]
+	path = lib/spectrum
+	url = git@github.com:GerHobbelt/spectrum.git
+	ignore = dirty
+[submodule "lib/jquery-colorpicker"]
+	path = lib/jquery-colorpicker
+	url = git@github.com:GerHobbelt/jQuery-ColorPicker.git
+	ignore = dirty
+[submodule "lib/CodeMirror"]
+	path = lib/CodeMirror
+	url = git@github.com:GerHobbelt/CodeMirror2.git
+	ignore = dirty
+[submodule "lib/rickshaw"]
+	path = lib/rickshaw
+	url = git@github.com:GerHobbelt/rickshaw.git
+	ignore = dirty
+[submodule "lib/w2ui"]
+	path = lib/w2ui
+	url = git@github.com:GerHobbelt/w2ui.git
+	ignore = dirty
+[submodule "lib/chai"]
+	path = lib/chai
+	url = git@github.com:GerHobbelt/chai.git
+	ignore = dirty
+[submodule "_docs/development/interdependent-interactive-histograms"]
+	path = _docs/development/interdependent-interactive-histograms
+	url = git@github.com:GerHobbelt/interdependent-interactive-histograms.git
+	ignore = dirty
+[submodule "lib/jquery-selectize"]
+	path = lib/jquery-selectize
+	url = git@github.com:GerHobbelt/selectize.js.git
+	ignore = dirty
+[submodule "lib/intern"]
+	path = lib/intern
+	url = git@github.com:GerHobbelt/intern.git
+	ignore = dirty
+[submodule "lib/jquery-rangeslider"]
+	path = lib/jquery-rangeslider
+	url = git@github.com:GerHobbelt/jQRangeSlider.git
+	ignore = dirty
+[submodule "lib/jquery-sausage"]
+	path = lib/jquery-sausage
+	url = git@github.com:GerHobbelt/sausage.git
+	ignore = dirty
+[submodule "lib/hallo"]
+	path = lib/hallo
+	url = git@github.com:GerHobbelt/hallo.git
+	ignore = dirty
+[submodule "lib/jquerytools"]
+	path = lib/jquerytools
+	url = git@github.com:GerHobbelt/jquerytools.git
+	ignore = dirty
+[submodule "lib/jquery-dform"]
+	path = lib/jquery-dform
+	url = git@github.com:GerHobbelt/jquery.dform.git
+	ignore = dirty
+[submodule "lib/radial-menu"]
+	path = lib/radial-menu
+	url = git@github.com:GerHobbelt/radial-menu.git
+	ignore = dirty
+[submodule "lib/radial-responsive-menu"]
+	path = lib/radial-responsive-menu
+	url = git@github.com:GerHobbelt/radial-responsive-menu.git
+	ignore = dirty
+[submodule "lib/jquery-contextmenu"]
+	path = lib/jquery-contextmenu
+	url = git@github.com:GerHobbelt/jQuery-contextMenu.git
+	ignore = dirty
+[submodule "lib/pie-menu"]
+	path = lib/pie-menu
+	url = git@github.com:GerHobbelt/Pie-Menu.git
+	ignore = dirty
+[submodule "lib/circle-menu"]
+	path = lib/circle-menu
+	url = git@github.com:GerHobbelt/circle-menu.git
+	ignore = dirty
+[submodule "lib/snap.js"]
+	path = lib/snap.js
+	url = git@github.com:GerHobbelt/Snap.js.git
+	ignore = dirty
+[submodule "_docs/Know.Your.HTTP"]
+	path = _docs/Know.Your.HTTP
+	url = git@github.com:GerHobbelt/know-your-http.git
+	ignore = dirty
+[submodule "php/lib/omnipay"]
+	path = php/lib/omnipay
+	url = git@github.com:GerHobbelt/omnipay.git
+	ignore = dirty
+[submodule "lib/jquery-ui-touch-punch"]
+	path = lib/jquery-ui-touch-punch
+	url = git@github.com:GerHobbelt/jquery-ui-touch-punch.git
+	ignore = dirty
+[submodule "lib/backbone-ui"]
+	path = lib/backbone-ui
+	url = git@github.com:GerHobbelt/backbone-ui.git
+	ignore = dirty
+[submodule "lib/ui-progress-bar"]
+	path = lib/ui-progress-bar
+	url = git@github.com:GerHobbelt/ui-progress-bar.git
+	ignore = dirty
+[submodule "lib/no-ui-slider"]
+	path = lib/no-ui-slider
+	url = git@github.com:GerHobbelt/noUiSlider.git
+	ignore = dirty
+[submodule "lib/xregexp"]
+	path = lib/xregexp
+	url = git@github.com:GerHobbelt/xregexp.git
+	ignore = dirty
+[submodule "lib/responsive-multilevel-menu"]
+	path = lib/responsive-multilevel-menu
+	url = git@github.com:GerHobbelt/ResponsiveMultiLevelMenu.git
+	ignore = dirty
+[submodule "css/lib/Font-Awesome"]
+	path = css/lib/Font-Awesome
+	url = git@github.com:GerHobbelt/Font-Awesome.git
+	ignore = dirty
+[submodule "lib/zurb-foundation"]
+	path = lib/zurb-foundation
+	url = git@github.com:GerHobbelt/foundation.git
+	ignore = dirty
+[submodule "lib/intro.js"]
+	path = lib/intro.js
+	url = git@github.com:GerHobbelt/intro.js.git
+	ignore = dirty
+[submodule "lib/pageguide"]
+	path = lib/pageguide
+	url = git@github.com:GerHobbelt/pageguide.git
+	ignore = dirty
+[submodule "lib/jquery-mousewheel"]
+	path = lib/jquery-mousewheel
+	url = git@github.com:GerHobbelt/jquery-mousewheel.git
+	ignore = dirty
+[submodule "lib/jquery-pageslide"]
+	path = lib/jquery-pageslide
+	url = git@github.com:GerHobbelt/jquery-pageslide.git
+	ignore = dirty
+[submodule "lib/jquery-validation"]
+	path = lib/jquery-validation
+	url = git@github.com:GerHobbelt/jquery-validation.git
+	ignore = dirty
+[submodule "lib/jQuery-filedrop"]
+	path = lib/jQuery-filedrop
+	url = git@github.com:GerHobbelt/jquery-filedrop.git
+	ignore = dirty
+[submodule "lib/jquery-timepicker"]
+	path = lib/jquery-timepicker
+	url = git@github.com:GerHobbelt/jquery-timepicker.git
+	ignore = dirty
+[submodule "lib/jquery-nicescroll"]
+	path = lib/jquery-nicescroll
+	url = git@github.com:GerHobbelt/jquery.nicescroll.git
+	ignore = dirty
+[submodule "lib/jquery-autocomplete-orig"]
+	path = lib/jquery-autocomplete-orig
+	url = git@github.com:GerHobbelt/jquery-autocomplete-orig.git
+	ignore = dirty
+[submodule "lib/jquery-autocomplete"]
+	path = lib/jquery-autocomplete
+	url = git@github.com:GerHobbelt/jQuery-Autocomplete.git
+	ignore = dirty
+[submodule "lib/typeahead"]
+	path = lib/typeahead
+	url = git@github.com:GerHobbelt/typeahead.js.git
+	ignore = dirty
+[submodule "lib/jquery-offline"]
+	path = lib/jquery-offline
+	url = git@github.com:GerHobbelt/jquery-offline.git
+	ignore = dirty
+[submodule "lib/jquery-throttle-debounce"]
+	path = lib/jquery-throttle-debounce
+	url = git@github.com:GerHobbelt/jquery-throttle-debounce.git
+	ignore = dirty
+[submodule "lib/jquery-stick-em"]
+	path = lib/jquery-stick-em
+	url = git@github.com:GerHobbelt/jQuery-Stickem.git
+	ignore = dirty
+[submodule "lib/jquery-console"]
+	path = lib/jquery-console
+	url = git@github.com:GerHobbelt/jquery-console.git
+	ignore = dirty
+[submodule "lib/jquery-complexify"]
+	path = lib/jquery-complexify
+	url = git@github.com:GerHobbelt/jquery.complexify.js.git
+	ignore = dirty
+[submodule "lib/jquery-transition"]
+	path = lib/jquery-transition
+	url = git@github.com:GerHobbelt/jquery.transition.js.git
+	ignore = dirty
+[submodule "lib/jquery-boilerplate"]
+	path = lib/jquery-boilerplate
+	url = git@github.com:GerHobbelt/boilerplate.git
+	ignore = dirty
+[submodule "lib/jquery-equal-heights"]
+	path = lib/jquery-equal-heights
+	url = git@github.com:GerHobbelt/jQuery-Equal-Heights.git
+	ignore = dirty
+[submodule "lib/jquery-event-swipe"]
+	path = lib/jquery-event-swipe
+	url = git@github.com:GerHobbelt/jquery.event.swipe.git
+	ignore = dirty
+[submodule "lib/jquery-event-move"]
+	path = lib/jquery-event-move
+	url = git@github.com:GerHobbelt/jquery.event.move.git
+	ignore = dirty
+[submodule "lib/jquery-scrollto"]
+	path = lib/jquery-scrollto
+	url = git@github.com:GerHobbelt/jquery.scrollTo.git
+	ignore = dirty
+[submodule "lib/jquery-scrollintoview"]
+	path = lib/jquery-scrollintoview
+	url = git@github.com:GerHobbelt/jquery-scrollintoview.git
+	ignore = dirty
+[submodule "lib/jquery-appear"]
+	path = lib/jquery-appear
+	url = git@github.com:GerHobbelt/jquery.appear.git
+	ignore = dirty
+[submodule "lib/jquery-inview"]
+	path = lib/jquery-inview
+	url = git@github.com:GerHobbelt/jquery.inview.git
+	ignore = dirty
+[submodule "lib/jquery-jscrollpane"]
+	path = lib/jquery-jscrollpane
+	url = git@github.com:GerHobbelt/jScrollPane.git
+	ignore = dirty
+[submodule "lib/jquery-bigtext"]
+	path = lib/jquery-bigtext
+	url = git@github.com:GerHobbelt/BigText.git
+	ignore = dirty
+[submodule "lib/less"]
+	path = lib/less
+	url = git@github.com:GerHobbelt/less.js.git
+	ignore = dirty
+[submodule "lib/jquery-fullcalendar"]
+	path = lib/jquery-fullcalendar
+	url = git@github.com:GerHobbelt/fullcalendar.git
+	ignore = dirty
+[submodule "lib/jquerypp"]
+	path = lib/jquerypp
+	url = git@github.com:GerHobbelt/jquerypp.git
+	ignore = dirty
+[submodule "lib/event.js"]
+	path = lib/event.js
+	url = git@github.com:GerHobbelt/Event.js.git
+	ignore = dirty
+[submodule "lib/signal-compoundsignal"]
+	path = lib/signal-compoundsignal
+	url = git@github.com:GerHobbelt/CompoundSignal.git
+	ignore = dirty
+[submodule "lib/signal-signals"]
+	path = lib/signal-signals
+	url = git@github.com:GerHobbelt/js-signals.git
+	ignore = dirty
+[submodule "lib/jasmine-signals"]
+	path = lib/jasmine-signals
+	url = git@github.com:GerHobbelt/jasmine-signals.git
+	ignore = dirty
+[submodule "lib/postal"]
+	path = lib/postal
+	url = git@github.com:GerHobbelt/postal.js.git
+	ignore = dirty
+[submodule "lib/postal-when"]
+	path = lib/postal-when
+	url = git@github.com:GerHobbelt/postal.when.git
+	ignore = dirty
+[submodule "lib/postal-diagnostics"]
+	path = lib/postal-diagnostics
+	url = git@github.com:GerHobbelt/postal.diagnostics.git
+	ignore = dirty
+[submodule "lib/priority-queue"]
+	path = lib/priority-queue
+	url = git@github.com:GerHobbelt/js_priority_queue.git
+	ignore = dirty
+[submodule "lib/tributary"]
+	path = lib/tributary
+	url = git@github.com:GerHobbelt/tributary.git
+	ignore = dirty
+[submodule "lib/smash"]
+	path = lib/smash
+	url = git@github.com:GerHobbelt/smash.git
+	ignore = dirty
+[submodule "lib/HTML5-Clear-v2-demoapp"]
+	path = lib/HTML5-Clear-v2-demoapp
+	url = git@github.com:GerHobbelt/HTML5-Clear-v2.git
+	ignore = dirty
+[submodule "lib/jsbin"]
+	path = lib/jsbin
+	url = git@github.com:GerHobbelt/jsbin.git
+	ignore = dirty
+[submodule "lib/verlet"]
+	path = lib/verlet
+	url = git@github.com:GerHobbelt/verlet-js.git
+	ignore = dirty
+[submodule "lib/code-walker"]
+	path = lib/code-walker
+	url = git@github.com:GerHobbelt/js-code-walker.git
+	ignore = dirty
+[submodule "lib/three-ex"]
+	path = lib/three-ex
+	url = git@github.com:GerHobbelt/threex.git
+	ignore = dirty
+[submodule "lib/three"]
+	path = lib/three
+	url = git@github.com:GerHobbelt/three.js.git
+	ignore = dirty
+[submodule "php/lib/SimpleTest"]
+	path = php/lib/SimpleTest
+	url = git@github.com:GerHobbelt/simpletest.git
+	ignore = dirty
+[submodule "php/lib/phpUnit"]
+	path = php/lib/phpUnit
+	url = git@github.com:GerHobbelt/phpunit.git
+	ignore = dirty
+[submodule "lib/backbone-bootstrap-modal"]
+	path = lib/backbone-bootstrap-modal
+	url = git@github.com:GerHobbelt/backbone.bootstrap-modal.git
+	ignore = dirty
+[submodule "lib/jquery-quovolver"]
+	path = lib/jquery-quovolver
+	url = git@github.com:GerHobbelt/Quovolver.git
+	ignore = dirty
+[submodule "_docs/Backbone-example-directory"]
+	path = _docs/Backbone-example-directory
+	url = git@github.com:GerHobbelt/directory-backbone-bootstrap.git
+	ignore = dirty
+[submodule "php/lib/kissCMS-themes"]
+	path = php/lib/kissCMS-themes
+	url = git@github.com:GerHobbelt/kisscms-themes.git
+	ignore = dirty
+[submodule "php/lib/backbone-session"]
+	path = php/lib/backbone-session
+	url = git@github.com:GerHobbelt/backbone-session.git
+	ignore = dirty
+[submodule "php/lib/kissCMS"]
+	path = php/lib/kissCMS
+	url = git@github.com:GerHobbelt/kisscms.git
+	ignore = dirty
+[submodule "lib/jquery-select2"]
+	path = lib/jquery-select2
+	url = git@github.com:GerHobbelt/select2.git
+	ignore = dirty
+[submodule "lib/jquery-grewform"]
+	path = lib/jquery-grewform
+	url = git@github.com:GerHobbelt/jquery-grewform.git
+	ignore = dirty
+[submodule "lib/jquery-selectboxit"]
+	path = lib/jquery-selectboxit
+	url = git@github.com:GerHobbelt/jquery.selectBoxIt.js.git
+	ignore = dirty
+[submodule "php/lib/phpass"]
+	path = php/lib/phpass
+	url = git@github.com:GerHobbelt/phpass.git
+	ignore = dirty
+[submodule "php/lib/HTMLawed"]
+	path = php/lib/HTMLawed
+	url = git@github.com:GerHobbelt/HTMLawed.git
+	ignore = dirty
+[submodule "lib/lazy"]
+	path = lib/lazy
+	url = git@github.com:GerHobbelt/lazy.js.git
+	ignore = dirty
+[submodule "lib/lazyload"]
+	path = lib/lazyload
+	url = git@github.com:GerHobbelt/lazyload.git
+	ignore = dirty
+[submodule "lib/lazyload-all"]
+	path = lib/lazyload-all
+	url = git@github.com:GerHobbelt/lazyload-all.git
+	ignore = dirty
+[submodule "lib/dropzone"]
+	path = lib/dropzone
+	url = git@github.com:GerHobbelt/dropzone.git
+	ignore = dirty
+[submodule "_docs/Backbone-Require-Biolerplate-example"]
+	path = _docs/Backbone-Require-Biolerplate-example
+	url = git@github.com:GerHobbelt/Backbone-Require-Boilerplate.git
+	ignore = dirty
+[submodule "lib/requireCSS"]
+	path = lib/requireCSS
+	url = git@github.com:GerHobbelt/require-css.git
+	ignore = dirty
+[submodule "lib/jquery-waypoints"]
+	path = lib/jquery-waypoints
+	url = git@github.com:GerHobbelt/jquery-waypoints.git
+	ignore = dirty
+[submodule "_docs/DeckJS-CodeMirror-Example"]
+	path = _docs/DeckJS-CodeMirror-Example
+	url = git@github.com:GerHobbelt/deck.js-codemirror.git
+	ignore = dirty
+[submodule "lib/progress"]
+	path = lib/progress
+	url = git@github.com:GerHobbelt/Progress.git
+	ignore = dirty
+[submodule "lib/ring-progress-bar"]
+	path = lib/ring-progress-bar
+	url = git@github.com:GerHobbelt/ring-progress-bar.git
+	ignore = dirty
+[submodule "lib/monologue"]
+	path = lib/monologue
+	url = git@github.com:GerHobbelt/monologue.js.git
+	ignore = dirty
+[submodule "lib/postal-monologue"]
+	path = lib/postal-monologue
+	url = git@github.com:GerHobbelt/monopost.js.git
+	ignore = dirty
+[submodule "lib/postal-DOM"]
+	path = lib/postal-DOM
+	url = git@github.com:GerHobbelt/postal.dom.git
+	ignore = dirty
+[submodule "lib/postal-federation"]
+	path = lib/postal-federation
+	url = git@github.com:GerHobbelt/postal.federation.git
+	ignore = dirty
+[submodule "lib/postal-xframe"]
+	path = lib/postal-xframe
+	url = git@github.com:GerHobbelt/postal.xframe.git
+	ignore = dirty
+[submodule "_docs/postal-xframe-example"]
+	path = _docs/postal-xframe-example
+	url = git@github.com:GerHobbelt/xframe-demo.git
+	ignore = dirty
+[submodule "_docs/development/AMDjs-API"]
+	path = _docs/development/AMDjs-API
+	url = git@github.com:GerHobbelt/amdjs-api.git
+	ignore = dirty
+[submodule "lib/machina"]
+	path = lib/machina
+	url = git@github.com:GerHobbelt/machina.js.git
+	ignore = dirty
+[submodule "lib/postal-machina"]
+	path = lib/postal-machina
+	url = git@github.com:GerHobbelt/machina.postal.git
+	ignore = dirty
+[submodule "lib/machina-promise"]
+	path = lib/machina-promise
+	url = git@github.com:GerHobbelt/machina.promise.git
+	ignore = dirty
+[submodule "lib/jquery-cookie"]
+	path = lib/jquery-cookie
+	url = git@github.com:GerHobbelt/jquery-cookie.git
+	ignore = dirty
+[submodule "lib/jquery-raty"]
+	path = lib/jquery-raty
+	url = git@github.com:GerHobbelt/raty.git
+	ignore = dirty
+[submodule "css/lib/Font-Batch"]
+	path = css/lib/Font-Batch
+	url = git@github.com:GerHobbelt/Batch.git
+	ignore = dirty
+[submodule "lib/CodeMirror-UI"]
+	path = lib/CodeMirror-UI
+	url = git@github.com:GerHobbelt/codemirror-ui.git
+	ignore = dirty
+[submodule "lib/jquery-zoomooz"]
+	path = lib/jquery-zoomooz
+	url = git@github.com:GerHobbelt/zoomooz.git
+	ignore = dirty
+[submodule "lib/headjs"]
+	path = lib/headjs
+	url = git@github.com:GerHobbelt/headjs.git
+	ignore = dirty
+[submodule "lib/ladda"]
+	path = lib/ladda
+	url = git@github.com:GerHobbelt/Ladda.git
+	ignore = dirty
+[submodule "lib/require-less"]
+	path = lib/require-less
+	url = git@github.com:GerHobbelt/require-less.git
+	ignore = dirty
+[submodule "lib/highlight"]
+	path = lib/highlight
+	url = git@github.com:GerHobbelt/highlight.js.git
+	ignore = dirty
+[submodule "lib/classlist-shim"]
+	path = lib/classlist-shim
+	url = git@github.com:GerHobbelt/classList.js.git
+	ignore = dirty
+[submodule "lib/require-domReady"]
+	path = lib/require-domReady
+	url = git@github.com:GerHobbelt/requireJS-domReady.git
+	ignore = dirty
+[submodule "_docs/UMD-Universal-Module-Definition"]
+	path = _docs/UMD-Universal-Module-Definition
+	url = git@github.com:GerHobbelt/umd.git
+	ignore = dirty
+[submodule "lib/require-text"]
+	path = lib/require-text
+	url = git@github.com:GerHobbelt/text.git
+	ignore = dirty
+[submodule "lib/require-plugins"]
+	path = lib/require-plugins
+	url = git@github.com:GerHobbelt/requirejs-plugins.git
+	ignore = dirty
+[submodule "lib/jquery-color"]
+	path = lib/jquery-color
+	url = git@github.com:GerHobbelt/jquery-color.git
+	ignore = dirty
+[submodule "lib/zui53"]
+	path = lib/zui53
+	url = git@github.com:GerHobbelt/zui53.git
+	ignore = dirty
+[submodule "lib/jquery-easie"]
+	path = lib/jquery-easie
+	url = git@github.com:GerHobbelt/easie.git
+	ignore = dirty
+[submodule "php/lib/easier-baseN-encoding"]
+	path = php/lib/easier-baseN-encoding
+	url = git@github.com:GerHobbelt/easier.git
+	ignore = dirty
+[submodule "lib/jquery-tocify"]
+	path = lib/jquery-tocify
+	url = git@github.com:GerHobbelt/jquery.tocify.js.git
+	ignore = dirty
+[submodule "lib/create"]
+	path = lib/create
+	url = git@github.com:GerHobbelt/create.git
+	ignore = dirty
+[submodule "php/lib/profiler"]
+	path = php/lib/profiler
+	url = git@github.com:GerHobbelt/profiler.git
+	ignore = dirty
+[submodule "php/lib/sentry"]
+	path = php/lib/sentry
+	url = git@github.com:GerHobbelt/sentry.git
+	ignore = dirty
+[submodule "lib/jquery-payment"]
+	path = lib/jquery-payment
+	url = git@github.com:GerHobbelt/jquery.payment.git
+	ignore = dirty
+[submodule "lib/jquery-pep-dynamic-dragndrop"]
+	path = lib/jquery-pep-dynamic-dragndrop
+	url = git@github.com:GerHobbelt/jquery.pep.js.git
+	ignore = dirty
+[submodule "lib/jquery-nestable-dragndrop"]
+	path = lib/jquery-nestable-dragndrop
+	url = git@github.com:GerHobbelt/Nestable.git
+	ignore = dirty
+[submodule "lib/jquery-html5sortable-dragndrop"]
+	path = lib/jquery-html5sortable-dragndrop
+	url = git@github.com:GerHobbelt/html5sortable.git
+	ignore = dirty
+[submodule "lib/jquery-infinite-drag"]
+	path = lib/jquery-infinite-drag
+	url = git@github.com:GerHobbelt/jquery-infinite-drag.git
+	ignore = dirty
+[submodule "lib/backbone-stickit"]
+	path = lib/backbone-stickit
+	url = git@github.com:GerHobbelt/backbone.stickit.git
+	ignore = dirty
+[submodule "lib/backbone-dual-storage"]
+	path = lib/backbone-dual-storage
+	url = git@github.com:GerHobbelt/Backbone.dualStorage.git
+	ignore = dirty
+[submodule "lib/backbone-syphon-serialize-views"]
+	path = lib/backbone-syphon-serialize-views
+	url = git@github.com:GerHobbelt/backbone.syphon.git
+	ignore = dirty
+[submodule "lib/backbone-collection-view"]
+	path = lib/backbone-collection-view
+	url = git@github.com:GerHobbelt/backbone.collectionView.git
+	ignore = dirty
+[submodule "lib/backbone-autocomplete"]
+	path = lib/backbone-autocomplete
+	url = git@github.com:GerHobbelt/backbone-autocomplete.git
+	ignore = dirty
+[submodule "lib/backbone-getters-setters"]
+	path = lib/backbone-getters-setters
+	url = git@github.com:GerHobbelt/backbone.getters.setters.git
+	ignore = dirty
+[submodule "lib/backbone-virtual-collection"]
+	path = lib/backbone-virtual-collection
+	url = git@github.com:GerHobbelt/Backbone.VirtualCollection.git
+	ignore = dirty
+[submodule "lib/backbone-keys"]
+	path = lib/backbone-keys
+	url = git@github.com:GerHobbelt/backbone.keys.git
+	ignore = dirty
+[submodule "lib/backbone-poller"]
+	path = lib/backbone-poller
+	url = git@github.com:GerHobbelt/backbone-poller.git
+	ignore = dirty
+[submodule "lib/backbone-model-factory"]
+	path = lib/backbone-model-factory
+	url = git@github.com:GerHobbelt/backbone-model-factory.git
+	ignore = dirty
+[submodule "lib/backbone-singleton"]
+	path = lib/backbone-singleton
+	url = git@github.com:GerHobbelt/backbone-singleton.git
+	ignore = dirty
+[submodule "lib/backbone-giraffe"]
+	path = lib/backbone-giraffe
+	url = git@github.com:GerHobbelt/backbone.giraffe.git
+	ignore = dirty
+[submodule "php/lib/php-profiler"]
+	path = php/lib/php-profiler
+	url = git@github.com:GerHobbelt/php-profiler.git
+	ignore = dirty
+[submodule "lib/verge-screendimensions"]
+	path = lib/verge-screendimensions
+	url = git@github.com:GerHobbelt/verge.git
+	ignore = dirty
+[submodule "lib/response.js"]
+	path = lib/response.js
+	url = git@github.com:GerHobbelt/response.js.git
+	ignore = dirty
+[submodule "lib/SyntaxHighlighter"]
+	path = lib/SyntaxHighlighter
+	url = git@github.com:GerHobbelt/SyntaxHighlighter.git
+	ignore = dirty
+[submodule "lib/nprogress"]
+	path = lib/nprogress
+	url = git@github.com:GerHobbelt/nprogress.git
+	ignore = dirty
+[submodule "lib/jquery-globalize"]
+	path = lib/jquery-globalize
+	url = git@github.com:GerHobbelt/globalize.git
+	ignore = dirty
+[submodule "lib/slickgrid-surge-extensions"]
+	path = lib/slickgrid-surge-extensions
+	url = git@github.com:GerHobbelt/Surge-SlickGrid-Extensions.git
+	ignore = dirty
+[submodule "lib/slickgrid-spreadsheet-plugins"]
+	path = lib/slickgrid-spreadsheet-plugins
+	url = git@github.com:GerHobbelt/slickgrid-spreadsheet-plugins.git
+	ignore = dirty
+[submodule "lib/slickgrid-totals-plugin"]
+	path = lib/slickgrid-totals-plugin
+	url = git@github.com:GerHobbelt/slickgrid-totals-plugin.git
+	ignore = dirty
+[submodule "lib/numeral"]
+	path = lib/numeral
+	url = git@github.com:GerHobbelt/Numeral-js.git
+	ignore = dirty
+[submodule "lib/slickgrid-guriddo-frozencolumns"]
+	path = lib/slickgrid-guriddo-frozencolumns
+	url = git@github.com:GerHobbelt/guriddo.git
+	ignore = dirty
+[submodule "lib/slickgrid-distinct-values-menu-plugin"]
+	path = lib/slickgrid-distinct-values-menu-plugin
+	url = git@github.com:GerHobbelt/slick.distinctMenu.git
+	ignore = dirty
+[submodule "lib/slickgrid-enhanced-pager-plugin"]
+	path = lib/slickgrid-enhanced-pager-plugin
+	url = git@github.com:GerHobbelt/SlickGridEnhancementPager.git
+	ignore = dirty
+[submodule "lib/slickgrid-checkbox-select-all-column-plugin"]
+	path = lib/slickgrid-checkbox-select-all-column-plugin
+	url = git@github.com:GerHobbelt/SlickGrid.CheckboxSelectAllColumn.git
+	ignore = dirty
+[submodule "lib/jquery-onescroll"]
+	path = lib/jquery-onescroll
+	url = git@github.com:GerHobbelt/onescroll.git
+	ignore = dirty
+[submodule "lib/jquery-selectplus"]
+	path = lib/jquery-selectplus
+	url = git@github.com:GerHobbelt/selectplus.git
+	ignore = dirty
+[submodule "php/lib/DByte-PDOwrapper"]
+	path = php/lib/DByte-PDOwrapper
+	url = git@github.com:GerHobbelt/DByte.git
+	ignore = dirty
+[submodule "php/lib/php-ref"]
+	path = php/lib/php-ref
+	url = git@github.com:GerHobbelt/php-ref.git
+	ignore = dirty
+[submodule "lib/jquery-terminal"]
+	path = lib/jquery-terminal
+	url = git@github.com:GerHobbelt/jquery.terminal.git
+	ignore = dirty
+[submodule "lib/jquery-historize-input"]
+	path = lib/jquery-historize-input
+	url = git@github.com:GerHobbelt/Historize.git
+	ignore = dirty
+[submodule "lib/TinyColor"]
+	path = lib/TinyColor
+	url = git@github.com:GerHobbelt/TinyColor.git
+	ignore = dirty
+[submodule "lib/jquery-editable"]
+	path = lib/jquery-editable
+	url = git@github.com:GerHobbelt/jquery-editable.git
+	ignore = dirty
+[submodule "lib/debug-helper-functions"]
+	path = lib/debug-helper-functions
+	url = git@github.com:GerHobbelt/debug-helper-functions.git
+	ignore = dirty
+[submodule "lib/jquery-jeditable"]
+	path = lib/jquery-jeditable
+	url = git@github.com:GerHobbelt/jquery_jeditable.git
+	ignore = dirty
+[submodule "php/lib/hybridauth"]
+	path = php/lib/hybridauth
+	url = git@github.com:GerHobbelt/hybridauth.git
+	ignore = dirty
+[submodule "php/lib/opauth"]
+	path = php/lib/opauth
+	url = git@github.com:GerHobbelt/opauth.git
+	ignore = dirty
+[submodule "php/lib/opauth-openid"]
+	path = php/lib/opauth-openid
+	url = git@github.com:GerHobbelt/openid.git
+	ignore = dirty
+[submodule "php/lib/opauth-facebook"]
+	path = php/lib/opauth-facebook
+	url = git@github.com:GerHobbelt/facebook.git
+	ignore = dirty
+[submodule "php/lib/opauth-github"]
+	path = php/lib/opauth-github
+	url = git@github.com:GerHobbelt/github.git
+	ignore = dirty
+[submodule "php/lib/opauth-google"]
+	path = php/lib/opauth-google
+	url = git@github.com:GerHobbelt/google.git
+	ignore = dirty
+[submodule "php/lib/opauth-linkedin"]
+	path = php/lib/opauth-linkedin
+	url = git@github.com:GerHobbelt/linkedin.git
+	ignore = dirty
+[submodule "php/lib/opauth-live"]
+	path = php/lib/opauth-live
+	url = git@github.com:GerHobbelt/live.git
+	ignore = dirty
+[submodule "php/lib/opauth-twitter"]
+	path = php/lib/opauth-twitter
+	url = git@github.com:GerHobbelt/twitter.git
+	ignore = dirty
+[submodule "php/lib/opauth-docs"]
+	path = php/lib/opauth-docs
+	url = git@github.com:GerHobbelt/docs.git
+	ignore = dirty
+[submodule "lib/jquery-shapeshift"]
+	path = lib/jquery-shapeshift
+	url = git@github.com:GerHobbelt/jquery.shapeshift.git
+	ignore = dirty
+[submodule "lib/mason"]
+	path = lib/mason
+	url = git@github.com:GerHobbelt/Mason.git
+	ignore = dirty
+[submodule "lib/noty"]
+	path = lib/noty
+	url = git@github.com:GerHobbelt/noty.git
+	ignore = dirty
+[submodule "lib/BookJS"]
+	path = lib/BookJS
+	url = git@github.com:GerHobbelt/BookJS.git
+	ignore = dirty
+[submodule "lib/jquery-jsizes"]
+	path = lib/jquery-jsizes
+	url = git@github.com:GerHobbelt/jsizes.git
+	ignore = dirty
+[submodule "lib/jquery-scroller"]
+	path = lib/jquery-scroller
+	url = git@github.com:GerHobbelt/Scroller.git
+	ignore = dirty
+[submodule "lib/detect-zoom"]
+	path = lib/detect-zoom
+	url = git@github.com:GerHobbelt/detect-zoom.git
+	ignore = dirty
+[submodule "lib/jquery-cycle2"]
+	path = lib/jquery-cycle2
+	url = git@github.com:GerHobbelt/cycle2.git
+	ignore = dirty
+[submodule "lib/jquery-resize"]
+	path = lib/jquery-resize
+	url = git@github.com:GerHobbelt/jquery-resize.git
+	ignore = dirty
+[submodule "php/lib/phplist-api"]
+	path = php/lib/phplist-api
+	url = git@github.com:GerHobbelt/phplistapi.git
+	ignore = dirty
+[submodule "php/lib/phplist"]
+	path = php/lib/phplist
+	url = git@github.com:GerHobbelt/phplist.git
+	ignore = dirty
+[submodule "lib/mocha"]
+	path = lib/mocha
+	url = git@github.com:GerHobbelt/mocha.git
+	ignore = dirty
+[submodule "lib/sinon-js"]
+	path = lib/sinon-js
+	url = git@github.com:GerHobbelt/Sinon.JS.git
+	ignore = dirty
+[submodule "lib/better-assert"]
+	path = lib/better-assert
+	url = git@github.com:GerHobbelt/better-assert.git
+	ignore = dirty
+[submodule "lib/callsite"]
+	path = lib/callsite
+	url = git@github.com:GerHobbelt/callsite.git
+	ignore = dirty
+[submodule "lib/jsdiff"]
+	path = lib/jsdiff
+	url = git@github.com:GerHobbelt/jsdiff.git
+	ignore = dirty
+[submodule "_docs/development/slickgrid"]
+	path = _docs/development/slickgrid
+	url = git@github.com:GerHobbelt/SlickGrid.wiki.git
+	ignore = dirty
+[submodule "php/lib/yii"]
+	path = php/lib/yii
+	url = git@github.com:GerHobbelt/yii.git
+	ignore = dirty
+[submodule "php/lib/yii2"]
+	path = php/lib/yii2
+	url = git@github.com:GerHobbelt/yii2.git
+	ignore = dirty
+[submodule "lib/laconic"]
+	path = lib/laconic
+	url = git@github.com:GerHobbelt/laconic.git
+	ignore = dirty
+[submodule "lib/square-responsive-menu"]
+	path = lib/square-responsive-menu
+	url = git@github.com:GerHobbelt/square-responsive-menu.git
+	ignore = dirty
+[submodule "util/JSHint"]
+	path = util/JSHint
+	url = git@github.com:GerHobbelt/jshint.git
+	ignore = dirty
+[submodule "lib/jquery-simple-datetimepicker"]
+	path = lib/jquery-simple-datetimepicker
+	url = git@github.com:GerHobbelt/jquery-simple-datetimepicker.git
+	ignore = dirty
+[submodule "lib/move"]
+	path = lib/move
+	url = git@github.com:GerHobbelt/move.js.git
+	ignore = dirty
+[submodule "lib/pen-live-edit"]
+	path = lib/pen-live-edit
+	url = git@github.com:GerHobbelt/pen.git
+	ignore = dirty
+[submodule "lib/markdown"]
+	path = lib/markdown
+	url = git@github.com:GerHobbelt/markdown-js.git
+	ignore = dirty
+[submodule "lib/marked"]
+	path = lib/marked
+	url = git@github.com:GerHobbelt/marked.git
+	ignore = dirty
+[submodule "lib/uri.regex"]
+	path = lib/uri.regex
+	url = git@github.com:GerHobbelt/uri.regex.git
+	ignore = dirty
+[submodule "lib/backbone-jwerty"]
+	path = lib/backbone-jwerty
+	url = git@github.com:GerHobbelt/backbone.jwerty.git
+	ignore = dirty
+[submodule "lib/jwerty"]
+	path = lib/jwerty
+	url = git@github.com:GerHobbelt/jwerty.git
+	ignore = dirty
+[submodule "lib/mathjax"]
+	path = lib/mathjax
+	url = git@github.com:GerHobbelt/MathJax.git
+	ignore = dirty
+[submodule "lib/mathjax-dev"]
+	path = lib/mathjax-dev
+	url = git@github.com:GerHobbelt/MathJax-dev.git
+	ignore = dirty
+[submodule "lib/mathjax-acidtests"]
+	path = lib/mathjax-acidtests
+	url = git@github.com:GerHobbelt/AcidTestsMathML.git
+	ignore = dirty
+[submodule "lib/mathjax-test"]
+	path = lib/mathjax-test
+	url = git@github.com:GerHobbelt/MathJax-test.git
+	ignore = dirty
+[submodule "_docs/mathjax-docs"]
+	path = _docs/mathjax-docs
+	url = git@github.com:GerHobbelt/MathJax-docs.git
+	ignore = dirty
+[submodule "php/lib/HTMLpurifier"]
+	path = php/lib/HTMLpurifier
+	url = git@github.com:GerHobbelt/htmlpurifier.git
+	ignore = dirty
+[submodule "util/phpDocumentor"]
+	path = util/phpDocumentor
+	url = git@github.com:GerHobbelt/phpDocumentor2.git
+	ignore = dirty
+[submodule "lib/one-color"]
+	path = lib/one-color
+	url = git@github.com:GerHobbelt/one-color.git
+	ignore = dirty
+[submodule "lib/colorjoe"]
+	path = lib/colorjoe
+	url = git@github.com:GerHobbelt/colorjoe.git
+	ignore = dirty
+[submodule "lib/riot"]
+	path = lib/riot
+	url = git@github.com:GerHobbelt/riotjs.git
+	ignore = dirty
+[submodule "lib/fingerprint"]
+	path = lib/fingerprint
+	url = git@github.com:GerHobbelt/fingerprintjs.git
+	ignore = dirty
+[submodule "lib/vows"]
+	path = lib/vows
+	url = git@github.com:GerHobbelt/vows.git
+	ignore = dirty
+[submodule "buttons/tango-iconset/tango-icon-naming"]
+	path = buttons/tango-iconset/tango-icon-naming
+	url = git@github.com:GerHobbelt/tango-icon-naming.git
+	ignore = dirty
+[submodule "buttons/tango-iconset/tango-icon-theme"]
+	path = buttons/tango-iconset/tango-icon-theme
+	url = git@github.com:GerHobbelt/tango-icon-theme.git
+	ignore = dirty
+[submodule "lib/skrollr"]
+	path = lib/skrollr
+	url = git@github.com:GerHobbelt/skrollr.git
+	ignore = dirty
+[submodule "lib/jquery-fixclick"]
+	path = lib/jquery-fixclick
+	url = git@github.com:GerHobbelt/jquery-fixclick.git
+	ignore = dirty
+[submodule "css/lib/bootstrap"]
+	path = css/lib/bootstrap
+	url = git@github.com:GerHobbelt/bootstrap.git
+	ignore = dirty
+[submodule "css/lib/normalize"]
+	path = css/lib/normalize
+	url = git@github.com:GerHobbelt/normalize.css.git
+	ignore = dirty
+[submodule "util/xmail"]
+	path = util/xmail
+	url = git@github.com:GerHobbelt/xmail.git
+	ignore = dirty
+[submodule "lib/rainbow-vis"]
+	path = lib/rainbow-vis
+	url = git@github.com:GerHobbelt/RainbowVis-JS.git
+	ignore = dirty
+[submodule "lib/jsTimezoneDetect"]
+	path = lib/jsTimezoneDetect
+	url = git@github.com:GerHobbelt/jstimezonedetect.git
+	ignore = dirty
+[submodule "_docs/AppCache.Demo"]
+	path = _docs/AppCache.Demo
+	url = git@github.com:GerHobbelt/appcache-demo.git
+	ignore = dirty
+[submodule "php/lib/atoum-unittests"]
+	path = php/lib/atoum-unittests
+	url = git@github.com:GerHobbelt/atoum.git
+	ignore = dirty
+[submodule "php/lib/PHP-Error"]
+	path = php/lib/PHP-Error
+	url = git@github.com:GerHobbelt/PHP-Error.git
+	ignore = dirty
+[submodule "util/csslint"]
+	path = util/csslint
+	url = git@github.com:GerHobbelt/csslint.git
+	ignore = dirty
+[submodule "lib/speakingURL"]
+	path = lib/speakingURL
+	url = git@github.com:GerHobbelt/speakingurl.git
+	ignore = dirty
+[submodule "lib/tether-tooltip"]
+	path = lib/tether-tooltip
+	url = git@github.com:GerHobbelt/tooltip.git
+	ignore = dirty
+[submodule "lib/tether-shepherd-intro"]
+	path = lib/tether-shepherd-intro
+	url = git@github.com:GerHobbelt/shepherd.git
+	ignore = dirty
+[submodule "lib/tether-drop"]
+	path = lib/tether-drop
+	url = git@github.com:GerHobbelt/drop.git
+	ignore = dirty
+[submodule "lib/tether"]
+	path = lib/tether
+	url = git@github.com:GerHobbelt/tether.git
+	ignore = dirty
+[submodule "lib/d3-tooltip"]
+	path = lib/d3-tooltip
+	url = git@github.com:GerHobbelt/d3-tip.git
+	ignore = dirty
+[submodule "lib/TooltipMenu"]
+	path = lib/TooltipMenu
+	url = git@github.com:GerHobbelt/TooltipMenu.git
+	ignore = dirty
+[submodule "lib/qTip2"]
+	path = lib/qTip2
+	url = git@github.com:GerHobbelt/qTip2.git
+	ignore = dirty
+[submodule "css/lib/CSS-arrow-please"]
+	path = css/lib/CSS-arrow-please
+	url = git@github.com:GerHobbelt/cssarrowplease.git
+	ignore = dirty
+[submodule "css/lib/CSS-hint"]
+	path = css/lib/CSS-hint
+	url = git@github.com:GerHobbelt/hint.css.git
+	ignore = dirty
+[submodule "_docs/concord-consortium-HTML5-laboratory"]
+	path = _docs/concord-consortium-HTML5-laboratory
+	url = git@github.com:GerHobbelt/lab.git
+	ignore = dirty
+[submodule "lib/jquery-simulate"]
+	path = lib/jquery-simulate
+	url = git@github.com:GerHobbelt/jquery-simulate.git
+	ignore = dirty
+[submodule "css/lib/jquery-ui-bootstrap"]
+	path = css/lib/jquery-ui-bootstrap
+	url = git@github.com:GerHobbelt/jquery-ui-bootstrap.git
+	ignore = dirty
+[submodule "css/lib/jquery-mobile-flat-ui-theme"]
+	path = css/lib/jquery-mobile-flat-ui-theme
+	url = git@github.com:GerHobbelt/jquery-mobile-flat-ui-theme.git
+	ignore = dirty
+[submodule "lib/x-editable"]
+	path = lib/x-editable
+	url = git@github.com:GerHobbelt/x-editable.git
+	ignore = dirty
+[submodule "lib/jquery-timepicker-addon"]
+	path = lib/jquery-timepicker-addon
+	url = git@github.com:GerHobbelt/jQuery-Timepicker-Addon.git
+	ignore = dirty
+[submodule "lib/offline"]
+	path = lib/offline
+	url = git@github.com:GerHobbelt/offline.git
+	ignore = dirty
+[submodule "lib/pace-automatic-progress"]
+	path = lib/pace-automatic-progress
+	url = git@github.com:GerHobbelt/pace.git
+	ignore = dirty
+[submodule "lib/intercom"]
+	path = lib/intercom
+	url = git@github.com:GerHobbelt/intercom.js.git
+	ignore = dirty
+[submodule "lib/has.js"]
+	path = lib/has.js
+	url = git@github.com:GerHobbelt/has.js.git
+	ignore = dirty
+[submodule "lib/google-channelplate"]
+	path = lib/google-channelplate
+	url = git@github.com:GerHobbelt/ChannelPlate.git
+	ignore = dirty
+[submodule "lib/MessageChannel"]
+	path = lib/MessageChannel
+	url = git@github.com:GerHobbelt/MessageChannel.js.git
+	ignore = dirty
+[submodule "lib/kamino"]
+	path = lib/kamino
+	url = git@github.com:GerHobbelt/kamino.js.git
+	ignore = dirty
+[submodule "lib/jschannel"]
+	path = lib/jschannel
+	url = git@github.com:GerHobbelt/jschannel.git
+	ignore = dirty
+[submodule "lib/jquery-postmessage"]
+	path = lib/jquery-postmessage
+	url = git@github.com:GerHobbelt/jquery-postmessage.git
+	ignore = dirty
+[submodule "lib/LocalConnection"]
+	path = lib/LocalConnection
+	url = git@github.com:GerHobbelt/LocalConnection.js.git
+	ignore = dirty
+[submodule "css/lib/topcoat"]
+	path = css/lib/topcoat
+	url = git@github.com:GerHobbelt/topcoat.git
+	ignore = dirty
+[submodule "css/lib/bootstrap-themes-bootswatch"]
+	path = css/lib/bootstrap-themes-bootswatch
+	url = git@github.com:GerHobbelt/bootswatch.git
+	ignore = dirty
+[submodule "util/csso"]
+	path = util/csso
+	url = git@github.com:GerHobbelt/csso.git
+	ignore = dirty
+[submodule "lib/jquery-dropdown"]
+	path = lib/jquery-dropdown
+	url = git@github.com:GerHobbelt/jquery-dropdown.git
+	ignore = dirty
+[submodule "lib/multilevel-pushmenu"]
+	path = lib/multilevel-pushmenu
+	url = git@github.com:GerHobbelt/MultiLevelPushMenu.git
+	ignore = dirty
+[submodule "lib/wheel-menu"]
+	path = lib/wheel-menu
+	url = git@github.com:GerHobbelt/wheel-menu.git
+	ignore = dirty
+[submodule "lib/malihu-scrollbar"]
+	path = lib/malihu-scrollbar
+	url = git@github.com:GerHobbelt/malihu-custom-scrollbar-plugin.git
+	ignore = dirty
+[submodule "_docs/development/Responsive-Off-Canvas-Menu"]
+	path = _docs/development/Responsive-Off-Canvas-Menu
+	url = git@github.com:GerHobbelt/Responsive-Off-Canvas-Menu.git
+	ignore = dirty
+[submodule "lib/jquery-menu-aim"]
+	path = lib/jquery-menu-aim
+	url = git@github.com:GerHobbelt/jQuery-menu-aim.git
+	ignore = dirty
+[submodule "util/doxygen"]
+	path = util/doxygen
+	url = git@github.com:GerHobbelt/doxygen.git
+	ignore = dirty
+[submodule "lib/jquery-html5-upload"]
+	path = lib/jquery-html5-upload
+	url = git@github.com:GerHobbelt/jquery-html5-upload.git
+	ignore = dirty
+[submodule "lib/BigUpload"]
+	path = lib/BigUpload
+	url = git@github.com:GerHobbelt/BigUpload.git
+	ignore = dirty
+[submodule "lib/science"]
+	path = lib/science
+	url = git@github.com:GerHobbelt/science.js.git
+	ignore = dirty
+[submodule "lib/json2"]
+	path = lib/json2
+	url = git@github.com:GerHobbelt/JSON-js.git
+	ignore = dirty
+[submodule "util/PEG-js"]
+	path = util/PEG-js
+	url = git@github.com:GerHobbelt/pegjs.git
+	ignore = dirty
+[submodule "util/PEG-tolmasky"]
+	path = util/PEG-tolmasky
+	url = git@github.com:GerHobbelt/language.git
+	ignore = dirty
+[submodule "lib/autosize"]
+	path = lib/autosize
+	url = git@github.com:GerHobbelt/autosize.git
+	ignore = dirty
+[submodule "lib/echo3"]
+	path = lib/echo3
+	url = git@github.com:GerHobbelt/echo3.git
+	ignore = dirty
+[submodule "lib/jquery-splitter-panels"]
+	path = lib/jquery-splitter-panels
+	url = git@github.com:GerHobbelt/splitter.git
+	ignore = dirty
+[submodule "lib/functional-js"]
+	path = lib/functional-js
+	url = git@github.com:GerHobbelt/functional-javascript.git
+	ignore = dirty
+[submodule "lib/hammer"]
+	path = lib/hammer
+	url = git@github.com:GerHobbelt/hammer.js.git
+	ignore = dirty
+[submodule "lib/jquery-classList"]
+	path = lib/jquery-classList
+	url = git@github.com:GerHobbelt/jquery.classList.git
+	ignore = dirty
+[submodule "lib/PointerEvents-polyfill"]
+	path = lib/PointerEvents-polyfill
+	url = git@github.com:GerHobbelt/Points.git
+	ignore = dirty
+[submodule "lib/jquery-impress"]
+	path = lib/jquery-impress
+	url = git@github.com:GerHobbelt/jmpress.js.git
+	ignore = dirty
+[submodule "lib/jquery-print-in-page"]
+	path = lib/jquery-print-in-page
+	url = git@github.com:GerHobbelt/jquery.print-in-page.git
+	ignore = dirty
+[submodule "lib/jquery-boilerplate-patterns"]
+	path = lib/jquery-boilerplate-patterns
+	url = git@github.com:GerHobbelt/jquery-patterns.git
+	ignore = dirty
+[submodule "lib/jquery-insertAt"]
+	path = lib/jquery-insertAt
+	url = git@github.com:GerHobbelt/jQuery-insertAt.git
+	ignore = dirty
+[submodule "lib/d4"]
+	path = lib/d4
+	url = git@github.com:Timopheym/d4.git
+	ignore = dirty
+[submodule "lib/uuid"]
+	path = lib/uuid
+	url = git@github.com:GerHobbelt/node-uuid.git
+	ignore = dirty
+[submodule "lib/tabletop-import-google-spreadsheets"]
+	path = lib/tabletop-import-google-spreadsheets
+	url = git@github.com:GerHobbelt/tabletop.git
+	ignore = dirty
+[submodule "util/PEG-js-web"]
+	path = util/PEG-js-web
+	url = git@github.com:GerHobbelt/peg.arcanis.fr.git
+	ignore = dirty
+[submodule "lib/AnythingZoomer"]
+	path = lib/AnythingZoomer
+	url = git@github.com:GerHobbelt/AnythingZoomer.git
+	ignore = dirty
+[submodule "php/lib/SimpleTest-visualGUI"]
+	path = php/lib/SimpleTest-visualGUI
+	url = git@github.com:GerHobbelt/simpletest-visual-gui.git
+	ignore = dirty
+[submodule "lib/jquery-ui-keyboard"]
+	path = lib/jquery-ui-keyboard
+	url = git@github.com:GerHobbelt/Keyboard.git
+	ignore = dirty
+[submodule "lib/keyboard-layout-learn"]
+	path = lib/keyboard-layout-learn
+	url = git@github.com:GerHobbelt/JavaScript-keyboard-layout-learn.git
+	ignore = dirty
+[submodule "lib/autoNumeric"]
+	path = lib/autoNumeric
+	url = git@github.com:GerHobbelt/autoNumeric.git
+	ignore = dirty
+[submodule "lib/SHA3-js"]
+	path = lib/SHA3-js
+	url = git@github.com:GerHobbelt/sha3-js.git
+	ignore = dirty
+[submodule "lib/jsSHA"]
+	path = lib/jsSHA
+	url = git@github.com:GerHobbelt/jsSHA.git
+	ignore = dirty
+[submodule "lib/genie"]
+	path = lib/genie
+	url = git@github.com:GerHobbelt/genie.git
+	ignore = dirty
+[submodule "lib/bacon-frp"]
+	path = lib/bacon-frp
+	url = git@github.com:GerHobbelt/bacon.js.git
+	ignore = dirty
+[submodule "lib/crypto-js-hashes"]
+	path = lib/crypto-js-hashes
+	url = git@github.com:GerHobbelt/jshashes.git
+	ignore = dirty
+[submodule "lib/crc8"]
+	path = lib/crc8
+	url = git@github.com:GerHobbelt/crc8js.git
+	ignore = dirty
+[submodule "lib/crypton-zero-knowledge"]
+	path = lib/crypton-zero-knowledge
+	url = git@github.com:GerHobbelt/crypton.git
+	ignore = dirty
+[submodule "lib/hilitor"]
+	path = lib/hilitor
+	url = git@github.com:GerHobbelt/hilitor.git
+	ignore = dirty
+[submodule "util/findW-find_in_worktree"]
+	path = util/findW-find_in_worktree
+	url = git@github.com:GerHobbelt/findW-find_in_worktree.git
+	ignore = dirty
+[submodule "lib/jquery-rotary-dial-knob"]
+	path = lib/jquery-rotary-dial-knob
+	url = git@github.com:GerHobbelt/jQuery-Knob.git
+	ignore = dirty
+[submodule "lib/jquery-kontrols"]
+	path = lib/jquery-kontrols
+	url = git@github.com:GerHobbelt/jQuery-Kontrol.git
+	ignore = dirty
+[submodule "lib/famous"]
+	path = lib/famous
+	url = git@github.com:GerHobbelt/famous.git
+	ignore = dirty
+[submodule "lib/jquery-masked-input"]
+	path = lib/jquery-masked-input
+	url = git@github.com:GerHobbelt/jquery.maskedinput.git
+	ignore = dirty
+[submodule "lib/jquery-autogrow"]
+	path = lib/jquery-autogrow
+	url = git@github.com:GerHobbelt/jquery-autogrow.git
+	ignore = dirty
+[submodule "lib/caret-position"]
+	path = lib/caret-position
+	url = git@github.com:GerHobbelt/Caret.js.git
+	ignore = dirty
+[submodule "lib/at.autohinting"]
+	path = lib/at.autohinting
+	url = git@github.com:GerHobbelt/At.js.git
+	ignore = dirty
+[submodule "lib/caret-position-in-textbox"]
+	path = lib/caret-position-in-textbox
+	url = git@github.com:GerHobbelt/caret.git
+	ignore = dirty
+[submodule "lib/File-manager"]
+	path = lib/File-manager
+	url = git@github.com:GerHobbelt/Filemanager.git
+	ignore = dirty
+[submodule "lib/Fluidbox"]
+	path = lib/Fluidbox
+	url = git@github.com:GerHobbelt/Fluidbox.git
+	ignore = dirty
+[submodule "lib/Responsive-Measure"]
+	path = lib/Responsive-Measure
+	url = git@github.com:GerHobbelt/Responsive-Measure.git
+	ignore = dirty
+[submodule "lib/Socialite"]
+	path = lib/Socialite
+	url = git@github.com:GerHobbelt/Socialite.git
+	ignore = dirty
+[submodule "lib/tipue-search-engine"]
+	path = lib/tipue-search-engine
+	url = git@github.com:GerHobbelt/Tipue-Search.git
+	ignore = dirty
+[submodule "lib/tipue-drop-search-suggestions"]
+	path = lib/tipue-drop-search-suggestions
+	url = git@github.com:GerHobbelt/Tipue-drop.git
+	ignore = dirty
+[submodule "lib/finderSelect"]
+	path = lib/finderSelect
+	url = git@github.com:GerHobbelt/finderSelect.git
+	ignore = dirty
+[submodule "lib/jquery-floatlabels"]
+	path = lib/jquery-floatlabels
+	url = git@github.com:GerHobbelt/floatlabels.js.git
+	ignore = dirty
+[submodule "lib/jquery-file-tree"]
+	path = lib/jquery-file-tree
+	url = git@github.com:GerHobbelt/jQuery-File-Tree.git
+	ignore = dirty
+[submodule "lib/jquery-anystretch"]
+	path = lib/jquery-anystretch
+	url = git@github.com:GerHobbelt/jquery-anystretch.git
+	ignore = dirty
+[submodule "lib/jquery-colorpickersliders"]
+	path = lib/jquery-colorpickersliders
+	url = git@github.com:GerHobbelt/jquery-colorpickersliders.git
+	ignore = dirty
+[submodule "lib/jquery-match-height"]
+	path = lib/jquery-match-height
+	url = git@github.com:GerHobbelt/jquery-match-height.git
+	ignore = dirty
+[submodule "lib/multi-level-push-menu"]
+	path = lib/multi-level-push-menu
+	url = git@github.com:GerHobbelt/multi-level-push-menu.git
+	ignore = dirty
+[submodule "lib/jquery-rowGrid"]
+	path = lib/jquery-rowGrid
+	url = git@github.com:GerHobbelt/rowGrid.js.git
+	ignore = dirty
+[submodule "lib/lunr-search-engine"]
+	path = lib/lunr-search-engine
+	url = git@github.com:GerHobbelt/lunr.js.git
+	ignore = dirty
+[submodule "lib/formula-Excel-functions"]
+	path = lib/formula-Excel-functions
+	url = git@github.com:GerHobbelt/formula.js.git
+	ignore = dirty
+[submodule "lib/financial-Excel-functions"]
+	path = lib/financial-Excel-functions
+	url = git@github.com:GerHobbelt/financial.js.git
+	ignore = dirty
+[submodule "lib/jquery-ui-layout"]
+	path = lib/jquery-ui-layout
+	url = git@github.com:GerHobbelt/jquery.layout.git
+	ignore = dirty
+[submodule "lib/handlebars"]
+	path = lib/handlebars
+	url = git@github.com:GerHobbelt/handlebars.js.git
+	ignore = dirty
+[submodule "lib/jquery-simulate-ext"]
+	path = lib/jquery-simulate-ext
+	url = git@github.com:GerHobbelt/jquery-simulate-ext.git
+	ignore = dirty
+[submodule "lib/BookBlock"]
+	path = lib/BookBlock
+	url = git@github.com:GerHobbelt/BookBlock.git
+	ignore = dirty
+[submodule "lib/BookPeview"]
+	path = lib/BookPeview
+	url = git@github.com:GerHobbelt/BookPreview.git
+	ignore = dirty
+[submodule "lib/jquery-columnizer"]
+	path = lib/jquery-columnizer
+	url = git@github.com:GerHobbelt/Columnizer-jQuery-Plugin.git
+	ignore = dirty
+[submodule "lib/nested-grid-layout"]
+	path = lib/nested-grid-layout
+	url = git@github.com:GerHobbelt/Nested.git
+	ignore = dirty
+[submodule "lib/jquery-wookmark"]
+	path = lib/jquery-wookmark
+	url = git@github.com:GerHobbelt/Wookmark-jQuery.git
+	ignore = dirty
+[submodule "lib/jquery-freewall"]
+	path = lib/jquery-freewall
+	url = git@github.com:GerHobbelt/freewall.git
+	ignore = dirty
+[submodule "lib/metalsmith"]
+	path = lib/metalsmith
+	url = git@github.com:GerHobbelt/metalsmith.git
+	ignore = dirty
+[submodule "lib/StringView-polyfill"]
+	path = lib/StringView-polyfill
+	url = git@github.com:GerHobbelt/StringView.git
+	ignore = dirty
+[submodule "lib/regression"]
+	path = lib/regression
+	url = git@github.com:GerHobbelt/regression-js.git
+	ignore = dirty
+[submodule "lib/recline"]
+	path = lib/recline
+	url = git@github.com:GerHobbelt/recline.git
+	ignore = dirty
+[submodule "lib/consolidate-template-engines"]
+	path = lib/consolidate-template-engines
+	url = git@github.com:GerHobbelt/consolidate.js.git
+	ignore = dirty
+[submodule "lib/sketch"]
+	path = lib/sketch
+	url = git@github.com:GerHobbelt/sketch.js.git
+	ignore = dirty
+[submodule "lib/locache"]
+	path = lib/locache
+	url = git@github.com:GerHobbelt/locache.git
+	ignore = dirty
+[submodule "lib/catiline-webworkers"]
+	path = lib/catiline-webworkers
+	url = git@github.com:GerHobbelt/catiline.git
+	ignore = dirty
+[submodule "lib/shotgun"]
+	path = lib/shotgun
+	url = git@github.com:GerHobbelt/shotgun.git
+	ignore = dirty
+[submodule "lib/loglevel"]
+	path = lib/loglevel
+	url = git@github.com:GerHobbelt/loglevel.git
+	ignore = dirty
+[submodule "lib/director-router"]
+	path = lib/director-router
+	url = git@github.com:GerHobbelt/director.git
+	ignore = dirty
+[submodule "lib/loStorage"]
+	path = lib/loStorage
+	url = git@github.com:GerHobbelt/loStorage.js.git
+	ignore = dirty
+[submodule "lib/ajaxify"]
+	path = lib/ajaxify
+	url = git@github.com:GerHobbelt/ajaxify.git
+	ignore = dirty
+[submodule "lib/fontIconPicker"]
+	path = lib/fontIconPicker
+	url = git@github.com:GerHobbelt/fontIconPicker.git
+	ignore = dirty
+[submodule "lib/Slidebars"]
+	path = lib/Slidebars
+	url = git@github.com:GerHobbelt/Slidebars.git
+	ignore = dirty
+[submodule "lib/dat.gui"]
+	path = lib/dat.gui
+	url = git@github.com:GerHobbelt/dat.gui.git
+	ignore = dirty
+[submodule "lib/two-svg"]
+	path = lib/two-svg
+	url = git@github.com:GerHobbelt/two.js.git
+	ignore = dirty
+[submodule "lib/object-path"]
+	path = lib/object-path
+	url = git@github.com:GerHobbelt/object-path.git
+	ignore = dirty
+[submodule "lib/objeq-json-querying"]
+	path = lib/objeq-json-querying
+	url = git@github.com:GerHobbelt/objeq.git
+	ignore = dirty
+[submodule "lib/jquery-hotkeys"]
+	path = lib/jquery-hotkeys
+	url = git@github.com:GerHobbelt/jquery.hotkeys.git
+	ignore = dirty
+[submodule "lib/zeroclipboard"]
+	path = lib/zeroclipboard
+	url = git@github.com:GerHobbelt/zeroclipboard.git
+	ignore = dirty
+[submodule "lib/clipboard"]
+	path = lib/clipboard
+	url = git@github.com:GerHobbelt/clipboard.git
+	ignore = dirty
+[submodule "lib/json-select.tests"]
+	path = lib/json-select.tests
+	url = git@github.com:GerHobbelt/JSONSelectTests.git
+	ignore = dirty
+[submodule "util/JSDoc"]
+	path = util/JSDoc
+	url = git@github.com:GerHobbelt/jsdoc.git
+	ignore = dirty
+[submodule "lib/require-handlebars"]
+	path = lib/require-handlebars
+	url = git@github.com:GerHobbelt/requirejs-handlebars.git
+	ignore = dirty
+[submodule "css/lib/Font-Genericons"]
+	path = css/lib/Font-Genericons
+	url = git@github.com:GerHobbelt/Genericons.git
+	ignore = dirty
+[submodule "lib/benchmark"]
+	path = lib/benchmark
+	url = git@github.com:GerHobbelt/benchmark.js.git
+	ignore = dirty
+[submodule "util/greg"]
+	path = util/greg
+	url = git@github.com:GerHobbelt/greg.git
+	ignore = dirty
+[submodule "lib/tpz-base32"]
+	path = lib/tpz-base32
+	url = git@github.com:GerHobbelt/base32-js.git
+	ignore = dirty
+[submodule "lib/fd-slider"]
+	path = lib/fd-slider
+	url = git@github.com:GerHobbelt/fd-slider.git
+	ignore = dirty
+[submodule "lib/jquery-animate-enhanced"]
+	path = lib/jquery-animate-enhanced
+	url = git@github.com:GerHobbelt/jQuery-Animate-Enhanced.git
+	ignore = dirty
+[submodule "util/json"]
+	path = util/json
+	url = git@github.com:GerHobbelt/json.git
+	ignore = dirty
+[submodule "lib/json5"]
+	path = lib/json5
+	url = git@github.com:GerHobbelt/json5.git
+	ignore = dirty
+[submodule "lib/editable-contenteditable"]
+	path = lib/editable-contenteditable
+	url = git@github.com:GerHobbelt/editable.git
+	ignore = dirty
+[submodule "lib/quickdiff"]
+	path = lib/quickdiff
+	url = git@github.com:GerHobbelt/quickdiff.git
+	ignore = dirty
+[submodule "lib/mousetrap.help"]
+	path = lib/mousetrap.help
+	url = git@github.com:GerHobbelt/mousetrap.help.git
+	ignore = dirty
+[submodule "lib/riveter-mixins"]
+	path = lib/riveter-mixins
+	url = git@github.com:GerHobbelt/riveter.git
+	ignore = dirty
+[submodule "lib/edison-routing"]
+	path = lib/edison-routing
+	url = git@github.com:GerHobbelt/edison.js.git
+	ignore = dirty
+[submodule "lib/jquery-tokeninput"]
+	path = lib/jquery-tokeninput
+	url = git@github.com:GerHobbelt/jquery-tokeninput.git
+[submodule "lib/d3-dimple"]
+	path = lib/d3-dimple
+	url = git@github.com:GerHobbelt/dimple.git
+[submodule "lib/rekapi"]
+	path = lib/rekapi
+	url = git@github.com:GerHobbelt/rekapi.git
+[submodule "lib/shifty-tweens"]
+	path = lib/shifty-tweens
+	url = git@github.com:GerHobbelt/shifty.git
+[submodule "lib/rangeslider"]
+	path = lib/rangeslider
+	url = git@github.com:GerHobbelt/rangeslider.js.git
+[submodule "lib/large-local-storage"]
+	path = lib/large-local-storage
+	url = git@github.com:GerHobbelt/LargeLocalStorage.git
+[submodule "lib/keydrown-keyboard-repeat"]
+	path = lib/keydrown-keyboard-repeat
+	url = git@github.com:GerHobbelt/keydrown.git
+[submodule "lib/DOM-keyboard-event-polyfill"]
+	path = lib/DOM-keyboard-event-polyfill
+	url = git@github.com:GerHobbelt/DOM-Keyboard-Event-Level-3-polyfill.git
+[submodule "lib/keyvent-keyboard-event-simulator"]
+	path = lib/keyvent-keyboard-event-simulator
+	url = git@github.com:GerHobbelt/keyvent.js.git
+[submodule "lib/jquery-keynavigator"]
+	path = lib/jquery-keynavigator
+	url = git@github.com:GerHobbelt/keynavigator.git
+[submodule "lib/kecode"]
+	path = lib/kecode
+	url = git@github.com:GerHobbelt/keycode.git
+[submodule "lib/finch-router"]
+	path = lib/finch-router
+	url = git@github.com:GerHobbelt/finchjs.git
+[submodule "lib/pagejs-router"]
+	path = lib/pagejs-router
+	url = git@github.com:GerHobbelt/page.js.git
+[submodule "lib/crossroads-router"]
+	path = lib/crossroads-router
+	url = git@github.com:GerHobbelt/crossroads.js.git
+[submodule "lib/lettering.js"]
+	path = lib/lettering.js
+	url = git@github.com:GerHobbelt/Lettering.js.git
+[submodule "lib/queue"]
+	path = lib/queue
+	url = git@github.com:GerHobbelt/queue.git
+[submodule "lib/keyboard-layout-editor"]
+	path = lib/keyboard-layout-editor
+	url = git@github.com:GerHobbelt/keyboard-layout-editor.git
+[submodule "css/lib/keys"]
+	path = css/lib/keys
+	url = git@github.com:GerHobbelt/keyscss.git
+[submodule "css/lib/lesshat-mixins"]
+	path = css/lib/lesshat-mixins
+	url = git@github.com:GerHobbelt/lesshat.git
+[submodule "css/lib/LESS-Prefixer"]
+	path = css/lib/LESS-Prefixer
+	url = git@github.com:GerHobbelt/LESS-Prefixer.git
+[submodule "css/lib/less-triangle"]
+	path = css/lib/less-triangle
+	url = git@github.com:GerHobbelt/less-triangle.git
+[submodule "util/vulcanize"]
+	path = util/vulcanize
+	url = git@github.com:GerHobbelt/vulcanize.git
+[submodule "lib/jquery-responsive-tabs"]
+	path = lib/jquery-responsive-tabs
+	url = git@github.com:GerHobbelt/Responsive-Tabs.git
+[submodule "lib/reveal.js-presentable-TOC"]
+	path = lib/reveal.js-presentable-TOC
+	url = git@github.com:GerHobbelt/presentable.git
+[submodule "lib/mediaelement"]
+	path = lib/mediaelement
+	url = git@github.com:GerHobbelt/mediaelement.git
+[submodule "lib/jquery-fullscreen"]
+	path = lib/jquery-fullscreen
+	url = git@github.com:GerHobbelt/jquery.fullscreen.git
+[submodule "lib/jquery-fseditor"]
+	path = lib/jquery-fseditor
+	url = git@github.com:GerHobbelt/fseditor.git
+[submodule "lib/fullscreen-API-polyfill"]
+	path = lib/fullscreen-API-polyfill
+	url = git@github.com:GerHobbelt/Fullscreen-API-Polyfill.git
+[submodule "lib/fullscreen-form"]
+	path = lib/fullscreen-form
+	url = git@github.com:GerHobbelt/FullscreenForm.git
+[submodule "lib/modal-window-CSS3-effects"]
+	path = lib/modal-window-CSS3-effects
+	url = git@github.com:GerHobbelt/ModalWindowEffects.git
+[submodule "lib/jquery-omniwindow-modal-dialog"]
+	path = lib/jquery-omniwindow-modal-dialog
+	url = git@github.com:GerHobbelt/OmniWindow.git
+[submodule "lib/ventus-window-manager"]
+	path = lib/ventus-window-manager
+	url = git@github.com:GerHobbelt/Ventus.git
+[submodule "css/lib/focal-point"]
+	path = css/lib/focal-point
+	url = git@github.com:GerHobbelt/focal-point.git
+[submodule "lib/AMD-feature"]
+	path = lib/AMD-feature
+	url = git@github.com:GerHobbelt/AMD-feature.git
+[submodule "lib/jquery-filedrop-alt"]
+	path = lib/jquery-filedrop-alt
+	url = git@github.com:GerHobbelt/FileDrop.git
+[submodule "lib/scoped-querySelector-shim"]
+	path = lib/scoped-querySelector-shim
+	url = git@github.com:GerHobbelt/scopedQuerySelectorShim.git
+[submodule "util/grunt-multisourced-bower-config"]
+	path = util/grunt-multisourced-bower-config
+	url = git@github.com:GerHobbelt/grunt-multisourced-bower-config.git

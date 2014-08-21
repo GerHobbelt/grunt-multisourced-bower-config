@@ -1,66 +1,63 @@
 {
-  "name"        : "backbone.marionette",
-  "description" : "Make your Backbone.js apps dance with a composite application architecture!",
-  "url"         : "http://marionettejs.org",
-  "main"        : "./lib/backbone.marionette.js",
-  "version"     : "1.1.0",
-
-  "keywords"     : [
-    "backbone",
-    "framework",
-    "client",
-    "browser",
-    "composite"
-  ],
-
-  "author": {
-    "name"  : "Derick Bailey",
-    "email" : "derickbailey@gmail.com"
-  },
-
-  "contributors" : [
-    {
-      "name"  : "Jarrod Overson",
-      "email" : "jsoverson@gmail.com"
+    "name": "backbone.marionette",
+    "description": "Make your Backbone.js apps dance with a composite application architecture!",
+    "url": "http://marionettejs.org",
+    "main": "./lib/backbone.marionette.js",
+    "version": "1.1.0",
+    "keywords": [
+        "backbone",
+        "framework",
+        "client",
+        "browser",
+        "composite"
+    ],
+    "author": {
+        "name": "Derick Bailey",
+        "email": "derickbailey@gmail.com"
     },
-    {
-      "name"  : "Tony Abou-Assaleh",
-      "email" : "taa@eits.ca"
+    "contributors": [
+        {
+            "name": "Jarrod Overson",
+            "email": "jsoverson@gmail.com"
+        },
+        {
+            "name": "Tony Abou-Assaleh",
+            "email": "taa@eits.ca"
+        },
+        {
+            "name": "Matt Briggs",
+            "email": "matt@mattbriggs.net"
+        },
+        {
+            "name": "Ruben Vreeken",
+            "email": "ruben.vreeken@gmail.com"
+        },
+        {
+            "name": "Brian Mann",
+            "email": "brian@backbonerails.com"
+        }
+    ],
+    "ignore": [
+        "docs",
+        "reports",
+        "spec",
+        ".gitignore",
+        ".travis.yml",
+        "build",
+        "build.cmd",
+        "CONTRIBUTING.md",
+        "changelog.md",
+        "package.json"
+    ],
+    "dependencies": {
+        "backbone": "git@github.com:GerHobbelt/backbone.git#~1.0.0",
+        "underscore": "git@github.com:GerHobbelt/underscore.git#~1.5.1"
     },
-    {
-      "name"  : "Matt Briggs",
-      "email" : "matt@mattbriggs.net"
-    },
-    {
-      "name"  : "Ruben Vreeken",
-      "email" : "ruben.vreeken@gmail.com"
-    },
-    {
-      "name"  : "Brian Mann",
-      "email" : "brian@backbonerails.com"
+    "devDependencies": {
+        "backbone.babysitter": "~0.0.6",
+        "backbone.wreqr": "~0.2.0",
+        "jquery": "git@github.com:GerHobbelt/jquery.git#>=2.0.0",
+        "nprogress": "git@github.com:GerHobbelt/nprogress.git#hashhashhashhash",
+        "d3": "git@github.com:GerHobbelt/d3.git#3.4.0"
     }
-  ],
-  
-  "ignore": [
-    "docs",
-    "reports",
-    "spec",
-    ".gitignore",
-    ".travis.yml",
-    "build",
-    "build.cmd",
-    "CONTRIBUTING.md",
-    "changelog.md",
-    "package.json"
-  ],
-
-  "dependencies" : {
-    "backbone": "~1.0.0",
-    "underscore": "~1.5.1"
-  },
-  "devDependencies": {
-    "backbone.babysitter": "~0.0.6",
-    "backbone.wreqr": "~0.2.0"
-  }
 }
-.
