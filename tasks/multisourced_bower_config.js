@@ -33,12 +33,12 @@ module.exports = function(grunt) {
           // 
           // Now see whether the local path in the mapping does exist, i.e. is non-empty:
           v = null;
-          console.log('testing: ', m);
+          //console.log('testing: ', m);
           if (grunt.file.isDir(m.local_path)) {
             // Also make sure the directory which allegedly contains the local clone of the repo
             // is non-empty:
             var list = grunt.file.expand(path.normalize(m.local_path + '/*'));
-            console.log('CHECK: ', m.local_path, list);
+            //console.log('CHECK: ', m.local_path, list);
             if (list && list.length) {
               v = m.local_path;
             }
@@ -50,28 +50,36 @@ module.exports = function(grunt) {
           // Pick up the version/revision bit from the template ( http://bower.io/docs/api/#install )
           var rev = /#.+$/.exec(obj[idx]);
           if (rev) {
-            v = v + rev[0];
+            rev = rev[0];
           } else {
             // template may spec a straight version or version range *without* a path/uri
             rev = /^[^~><=]*\d+\./.exec(obj[idx]);
             if (rev) {
               // version expression
-              v = v + '#' + obj[idx];
+              rev = '#' + obj[idx];
             } else {
               // direct version
               rev = /^\d+\.\d+\.\d+$/.exec(obj[idx]);
               if (rev) {
-                v = v + '#' + obj[idx];
+                rev = '#' + obj[idx];
+              } else {
+                rev = '';
               }
             }
           }
 
           // Patch the bower JSON config file
-          obj[idx] = v;
+          obj[idx] = options.custom_map_function(obj, idx, v, rev, options);
         }
       }
     }
   }
+
+  // Default 'custom mapper' function
+  function default_mapper(obj, idx, v, rev, options) {
+    return v + rev;
+  }
+
 
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
@@ -86,7 +94,8 @@ module.exports = function(grunt) {
     var options = this.options({
       gitmodules_file: null,        // '.gitmodules',
       gitmodules_basedir: null,     // base directory for the relative local paths in the .gitmodules mapping file; default: path to the gitmodules_file itself
-      custom_mapper: null
+      custom_mappings: null,        // NULL or OBJECT which contains key-value pairs: key=package_name, value = { local_path: ..., git_url: ... }
+      custom_map_function: default_mapper
     });
 
     // Set the gitmodules_basedir if it wasn't set already:
@@ -96,7 +105,14 @@ module.exports = function(grunt) {
         options.gitmodules_basedir = '.';
       }
     }
-    console.log('options: ', options);
+
+    // Fix/set default map function when the custom mapping function has not been specified
+    if (typeof options.custom_map_function !== 'function') {
+      grunt.log.warn('Invalid option.custom_map_function value; using the default mapper.');
+      options.custom_map_function = default_mapper;
+    }
+
+    //console.log('options: ', options);
 
     // Iterate over all specified file groups.
     this.files.forEach(function(f) {
@@ -164,6 +180,14 @@ module.exports = function(grunt) {
       }
       //console.log('mapping hashtable: ', mapping);
 
+      // Add the custom mappings, if any
+      for (var idx in options.custom_mappings) {
+        if (options.custom_mappings.hasOwnProperty(idx)) {
+          mapping[idx] = options.custom_mappings[idx];
+          mapping_size++;
+        }
+      }
+
       // Concat specified files.
       var src = f.src.filter(function(filepath) {
         // Warn on and remove invalid source files (if nonull was set).
@@ -182,11 +206,8 @@ module.exports = function(grunt) {
       var bower_cfg = JSON.parse(src);
 
       // Apply the mapping, if any:
-      if (mapping_size) {
-        apply_mapping(bower_cfg.dependencies, mapping, options);
-        apply_mapping(bower_cfg.devDependencies, mapping, options);
-      }
-      console.log(bower_cfg);
+      apply_mapping(bower_cfg.dependencies, mapping, options);
+      apply_mapping(bower_cfg.devDependencies, mapping, options);
 
       // Write the destination file.
       grunt.file.write(f.dest, grunt.util.normalizelf(JSON.stringify(bower_cfg, null, 4)));
