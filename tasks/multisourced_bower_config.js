@@ -117,7 +117,6 @@ module.exports = function(grunt) {
     // Iterate over all specified file groups.
     this.files.forEach(function(f) {
       var mapping = {};
-      var mapping_size = 0;
 
       // Load the gitsubmodules file and decode it into a mapping hashtable, if it is specified:
       if (options.gitmodules_file) {
@@ -173,7 +172,6 @@ module.exports = function(grunt) {
                   git_url: murl[1]
                 };
               }
-              mapping_size++;
             }
           }
         } while (a1 && a1.length);
@@ -184,7 +182,6 @@ module.exports = function(grunt) {
       for (var idx in options.custom_mappings) {
         if (options.custom_mappings.hasOwnProperty(idx)) {
           mapping[idx] = options.custom_mappings[idx];
-          mapping_size++;
         }
       }
 
