@@ -57,7 +57,8 @@
         "backbone.babysitter": "~0.0.6",
         "backbone.wreqr": "~0.2.0",
         "jquery": "git@github.com:GerHobbelt/jquery.git#>=2.0.0",
-        "nprogress": "git@github.com:GerHobbelt/nprogress.git#hashhashhashhash",
-        "d3": "git@github.com:GerHobbelt/d3.git#3.4.0"
+        "nprogress": "test/fixtures/lib/nprogress#hashhashhashhash",
+        "d3": "git@github.com:GerHobbelt/d3.git#3.4.0",
+        "jquery-globalize": "git@github.com:GerHobbelt/globalize.git#*"
     }
 }

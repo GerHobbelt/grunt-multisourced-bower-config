@@ -58,6 +58,7 @@
         "backbone.wreqr": "~0.2.0",
         "jquery": "#>=2.0.0",
         "nprogress": "#hashhashhashhash",
-        "d3": "3.4.0"
+        "d3": "3.4.0",
+        "jquery-globalize": "*"
     }
 }

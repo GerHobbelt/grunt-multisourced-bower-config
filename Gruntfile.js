@@ -40,7 +40,7 @@ module.exports = function(grunt) {
       custom_options: {
         options: {
           // Use the gitmodules file as a mapping source
-          gitmodules_file: 'test/fixtures/gitmodules-file',
+          gitmodules_file: 'test/fixtures/gitmodules-file'
         },
         files: {
           'tmp/custom_options/bower.json': ['test/fixtures/bower-template.json']

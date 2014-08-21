@@ -12,6 +12,13 @@ module.exports = function(grunt) {
 
   var path = require('path');
 
+  function norm_submodule_path(dir, options) {
+    if (grunt.file.isPathAbsolute(dir)) {
+      return dir;
+    }
+    return path.normalize(options.gitmodules_basedir + '/' + dir).replace(/\\/g, '/');
+  }
+
   function apply_mapping(obj, mapping, options) {
     if (!obj) { 
       return;
@@ -26,12 +33,14 @@ module.exports = function(grunt) {
           // 
           // Now see whether the local path in the mapping does exist, i.e. is non-empty:
           v = null;
+          console.log('testing: ', m);
           if (grunt.file.isDir(m.local_path)) {
             // Also make sure the directory which allegedly contains the local clone of the repo
             // is non-empty:
             var list = grunt.file.expand(path.normalize(m.local_path + '/*'));
+            console.log('CHECK: ', m.local_path, list);
             if (list && list.length) {
-              v = m.local_path.replace('\\', '/');
+              v = m.local_path;
             }
           }
           if (!v) {
@@ -51,7 +60,9 @@ module.exports = function(grunt) {
             } else {
               // direct version
               rev = /^\d+\.\d+\.\d+$/.exec(obj[idx]);
-              v = v + '#' + obj[idx];
+              if (rev) {
+                v = v + '#' + obj[idx];
+              }
             }
           }
 
@@ -74,10 +85,18 @@ module.exports = function(grunt) {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
       gitmodules_file: null,        // '.gitmodules',
-      gitmodules_basedir: '.',      // base directory for the relative local paths in the .gitmodules mapping file
-      custom_mapper: null,
-      separator: ', '
+      gitmodules_basedir: null,     // base directory for the relative local paths in the .gitmodules mapping file; default: path to the gitmodules_file itself
+      custom_mapper: null
     });
+
+    // Set the gitmodules_basedir if it wasn't set already:
+    if (!options.gitmodules_basedir) {
+      options.gitmodules_basedir = (options.gitmodules_file || '').replace('\\', '/').replace(/[^\/]+$/, '');
+      if (options.gitmodules_basedir === '') {
+        options.gitmodules_basedir = '.';
+      }
+    }
+    console.log('options: ', options);
 
     // Iterate over all specified file groups.
     this.files.forEach(function(f) {
@@ -113,7 +132,7 @@ module.exports = function(grunt) {
             mname = re_getname.exec(a1[1])[1];
             mpath = re2.exec(a1[2]);
             murl = re3.exec(a1[2]);
-            console.log('mname: ', mname, ', mpath: ', mpath && mpath[1], ', murl: ', murl && murl[1]);
+            //console.log('mname: ', mname, ', mpath: ', mpath && mpath[1], ', murl: ', murl && murl[1]);
             if (mname && mpath && mpath[1] && murl && murl[1]) {
               mname_alt = re_getname_alt.exec(murl[1]);
               if (mname_alt && mname_alt[1]) {
@@ -127,14 +146,14 @@ module.exports = function(grunt) {
               mapping[mname] = {
                 local_name: mname,
                 name: mname_alt || mname,
-                local_path: path.normalize(options.gitmodules_basedir + '/' + mpath[1]),
+                local_path: norm_submodule_path(mpath[1], options),
                 git_url: murl[1]
               };
               if (mname_alt) {
                 mapping[mname_alt] = {
                   local_name: mname,
                   name: mname_alt || mname,
-                  local_path: path.normalize(options.gitmodules_basedir + '/' + mpath[1]),
+                  local_path: norm_submodule_path(mpath[1], options),
                   git_url: murl[1]
                 };
               }
@@ -143,7 +162,7 @@ module.exports = function(grunt) {
           }
         } while (a1 && a1.length);
       }
-      console.log('mapping hashtable: ', mapping);
+      //console.log('mapping hashtable: ', mapping);
 
       // Concat specified files.
       var src = f.src.filter(function(filepath) {
@@ -164,9 +183,10 @@ module.exports = function(grunt) {
 
       // Apply the mapping, if any:
       if (mapping_size) {
-        apply_mapping(bower_cfg.dependencies, mapping);
-        apply_mapping(bower_cfg.devDependencies, mapping);
+        apply_mapping(bower_cfg.dependencies, mapping, options);
+        apply_mapping(bower_cfg.devDependencies, mapping, options);
       }
+      console.log(bower_cfg);
 
       // Write the destination file.
       grunt.file.write(f.dest, grunt.util.normalizelf(JSON.stringify(bower_cfg, null, 4)));
