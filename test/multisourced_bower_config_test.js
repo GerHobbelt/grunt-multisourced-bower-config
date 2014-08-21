@@ -30,8 +30,8 @@ exports.multisourced_bower_config = {
   default_options: function(test) {
     test.expect(1);
 
-    var actual = grunt.file.read('tmp/default_options');
-    var expected = grunt.file.read('test/expected/default_options');
+    var actual = grunt.file.read('tmp/default_options/bower.json');
+    var expected = grunt.file.read('test/expected/default_options/bower.json');
     test.equal(actual, expected, 'should describe what the default behavior is.');
 
     test.done();
@@ -39,8 +39,8 @@ exports.multisourced_bower_config = {
   custom_options: function(test) {
     test.expect(1);
 
-    var actual = grunt.file.read('tmp/custom_options');
-    var expected = grunt.file.read('test/expected/custom_options');
+    var actual = grunt.file.read('tmp/custom_options/bower.json');
+    var expected = grunt.file.read('test/expected/custom_options/bower.json');
     test.equal(actual, expected, 'should describe what the custom option(s) behavior is.');
 
     test.done();

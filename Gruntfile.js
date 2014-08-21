@@ -34,16 +34,16 @@ module.exports = function(grunt) {
         options: {
         },
         files: {
-          'tmp/default_options': ['test/fixtures/testing', 'test/fixtures/123']
+          'tmp/default_options/bower.json': ['test/fixtures/bower-template.json']
         }
       },
       custom_options: {
         options: {
-          separator: ': ',
-          punctuation: ' !!!'
+          // Use the gitmodules file as a mapping source
+          gitmodules_file: 'test/fixtures/gitmodules-file',
         },
         files: {
-          'tmp/custom_options': ['test/fixtures/testing', 'test/fixtures/123']
+          'tmp/custom_options/bower.json': ['test/fixtures/bower-template.json']
         }
       }
     },
@@ -52,7 +52,6 @@ module.exports = function(grunt) {
     nodeunit: {
       tests: ['test/*_test.js']
     }
-
   });
 
   // Actually load this plugin's task(s).
@@ -69,5 +68,4 @@ module.exports = function(grunt) {
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['jshint', 'test']);
-
 };

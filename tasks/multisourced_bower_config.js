@@ -13,7 +13,12 @@ module.exports = function(grunt) {
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
 
-  grunt.registerMultiTask('multisourced_bower_config', 'Generate the bower configuration file from a template, picking local or remote source git submodule repository for each dependency. This enables you to create a working bower config file whether or not you have your set of submodules~dependencies cloned locally.', function() {
+  grunt.registerMultiTask('multisourced_bower_config', 
+        'Generate the bower configuration file from a template, ' +
+        'picking local or remote source git submodule repository for each dependency. ' +
+        'This enables you to create a working bower config file whether or not you have ' +
+        'your set of submodules~dependencies cloned locally.', 
+        function() {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
       punctuation: '.',
